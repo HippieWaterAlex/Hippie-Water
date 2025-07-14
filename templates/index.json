@@ -28,6 +28,19 @@
         "image_hero_image_primary": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
+    "product_list_t4fXyL": {
+      "type": "product_list",
+      "name": "Product_List",
+      "settings": {
+        "text_flavor_heading": "Explore Our Flavors",
+        "text_flavor_body_copy": "Bright, juicy flavors made with real fruit juice sourced from Italy, crafted to match your mood and elevate your vibe.",
+        "url_link": "",
+        "text_text": "4-Pack  |  5mg Hemp-Derived THC",
+        "text_paragraph": "Juicy peach meets bright lemon, with a snap of ginger to keep things interesting.",
+        "url_button_link": "",
+        "text_button_text": "<div class=\"button-text\">Purchase Now</div>\n                  <div class=\"icon-1x1-small product_card_primary_cta_arrow w-embed\"><svg aria-hidden=\"true\" fill=\"currentColor\" role=\"img\" viewbox=\"0 0 20 21\" xmlns=\"http://www.w3.org/2000/svg\">\n                      <title>Arrow Right</title>\n                      <polygon points=\"16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9\">\n                    </polygon></svg></div>"
+      }
+    },
     "featured_products": {
       "type": "featured_products",
       "settings": {
@@ -80,6 +93,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "image_with_text",
+    "product_list_t4fXyL",
     "featured_products",
     "featured_collections",
     "blog_posts",
