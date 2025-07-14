@@ -16,6 +16,7 @@
 
 :root {
   --base-color-neutral--black: black;
+  --hw_offblack: #24201f;
   --base-color-neutral--neutral: #666;
   --text-color--text-alternate: var(--base-color-neutral--white);
   --base-color-neutral--white: white;
@@ -25,6 +26,7 @@
   --base-color-system--focus-state: #2d62ff;
   --background-color--background-tertiary: var(--base-color-brand--pink);
   --base-color-neutral--neutral-lighter: #ccc;
+  --hippie-cream: #f8e1cb;
   --base-color-neutral--neutral-darkest: #111;
   --base-color-neutral--neutral-lightest: #eee;
   --accessible-components-dark-grey\<deleted\|variable-c4d8099c\>: #9b9b9b;
@@ -42,7 +44,6 @@
   --background-color--background-alternate: var(--base-color-neutral--white);
   --background-color--background-success: var(--base-color-system--success-green);
   --text-color--text-success: var(--base-color-system--success-green-dark);
-  --hw_offblack: #24201f;
   --hw_offwhite: #fef6f0;
   --base-color-brand--blue-light: #d9e5ff;
   --base-color-brand--blue: #2d62ff;
@@ -374,6 +375,7 @@ figcaption {
 }
 
 .text-weight-semibold {
+  color: var(--hw_offblack);
   font-weight: 600;
 }
 
@@ -822,9 +824,10 @@ figcaption {
 
 .section_footer {
   border-top: 1px solid var(--base-color-neutral--neutral-lighter);
-  background-color: var(--base-color-neutral--black);
-  color: var(--base-color-neutral--white);
+  background-color: var(--hippie-cream);
+  color: var(--hw_offblack);
   margin-top: auto;
+  font-family: Galanogrotesque, Arial, sans-serif;
 }
 
 .cart_grid-wrapper {
@@ -2297,6 +2300,7 @@ figcaption {
 .footer_main-wrapper {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
+  color: var(--hw_offblack);
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -3628,11 +3632,13 @@ figcaption {
   flex-flow: column;
   justify-content: flex-start;
   align-items: flex-start;
+  font-size: 1rem;
   display: flex;
 }
 
 .footer_link {
-  font-size: .875rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .product-header_description {
@@ -3892,7 +3898,7 @@ figcaption {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  max-width: 1600px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 8px 24px 8px 73px;
@@ -4698,6 +4704,7 @@ figcaption {
   border-bottom: 1px #24201f;
   width: 100%;
   height: 100vh;
+  max-height: 800px;
 }
 
 .hero_title-wrapper {
@@ -4721,7 +4728,7 @@ figcaption {
   justify-content: center;
   align-items: stretch;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   display: flex;
 }
 
@@ -4768,7 +4775,7 @@ figcaption {
 .right-column {
   width: 45%;
   max-width: 550px;
-  height: 100%;
+  height: auto;
   position: relative;
   overflow: hidden;
 }
@@ -4861,6 +4868,7 @@ figcaption {
   flex-flow: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 12px;
 }
 
 .flex-block-4 {
@@ -4958,6 +4966,11 @@ figcaption {
   width: auto;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.button-5.is-icon.mini {
+  padding: .8rem 1.8rem;
+  font-size: .8rem;
 }
 
 .product_card_subscribe_pill {
@@ -5070,6 +5083,13 @@ figcaption {
 .product-item_tag-5.is-red {
   color: #9b1313;
   background-color: #f8e4e4;
+}
+
+.disclaimer_copy {
+  text-align: justify;
+  font-family: Galanogrotesque, Arial, sans-serif;
+  font-size: .7rem;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1440px) {
