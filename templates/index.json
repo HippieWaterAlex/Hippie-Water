@@ -39,12 +39,21 @@
       "settings": {
         "text_flavor_heading": "Explore Our Flavors",
         "text_flavor_body_copy": "Bright, juicy flavors made with real fruit juice sourced from Italy, crafted to match your mood and elevate your vibe.",
-        "url_link": "",
-        "image_product_image_one": "shopify://shop_images/Group_10122640_941da115-4b45-485f-b30c-2f0cc8aaee40.png",
-        "text_text": "4-Pack  |  5mg Hemp-Derived THC",
-        "text_paragraph": "Juicy peach meets bright lemon, with a snap of ginger to keep things interesting.",
-        "url_button_link": "",
-        "text_button_text": "Purchase Now                                        Arrow Right"
+        "url_product_image_link_one": "",
+        "text_product_one_copy": "4-Pack  |  5mg Hemp-Derived THC",
+        "text_product_description_one": "Juicy peach meets bright lemon, with a snap of ginger to keep things interesting.",
+        "url_product_button_link_one": "shopify://products/garden-party",
+        "text_product_button_text_one": "Purchase Now",
+        "url_product_image_link_two": "shopify://products/island-getaway",
+        "text_product_two_copy": "4-pack  |  5mg Hemp-Derived THC",
+        "text_product_description_two": "Bold pomegranate and rich blood orange come together in a smooth, citrusy twist.",
+        "url_product_button_link_two": "shopify://products/island-getaway",
+        "text_product_button_text_two": "Purchase Now",
+        "url_product_image_link_three": "shopify://products/island-getaway-1",
+        "text_product_three_copy": "4-pack  |  5mg Hemp-Derived THC",
+        "text_product_description_three": "Lush watermelon and zesty lime with a hint of chili for just the right kick.",
+        "url_product_button_link_three": "",
+        "text_product_button_text_three": "Purchase Now"
       }
     },
     "featured_products": {
