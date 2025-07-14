@@ -12,12 +12,7 @@
     "image_with_text": {
       "type": "image_with_text",
       "settings": {
-        "text_heading": "A Better",
-        "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
-        "text_text": "135 Verified 5-star reviews",
-        "url_button_link": "shopify://products/hippie-water-sample-bundle",
-        "text_button_text": "Purchase Now",
-        "image_image": "shopify://shop_images/IMG_0068.jpg"
+        "url_button_link": "shopify://products/hippie-water-sample-bundle"
       }
     },
     "featured_products": {
