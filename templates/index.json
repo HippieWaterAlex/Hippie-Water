@@ -56,47 +56,6 @@
         "text_product_button_text_three": "Purchase Now"
       }
     },
-    "featured_products": {
-      "type": "featured_products",
-      "settings": {
-        "text_heading": "Short heading here",
-        "url_button_link": "",
-        "text_button_text": "All products",
-        "collection_collection": "",
-        "collection_collection_limit": 6
-      }
-    },
-    "featured_collections": {
-      "type": "featured_collections",
-      "blocks": {
-        "block": {
-          "type": "block",
-          "name": "Block",
-          "settings": {
-            "url_link": "",
-            "text_heading": "Bestselling"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "block"
-      ],
-      "settings": {
-        "text_heading": "Short heading here"
-      }
-    },
-    "blog_posts": {
-      "type": "blog_posts",
-      "settings": {
-        "text_heading": "Short heading here",
-        "text_button_text": "All Articles",
-        "url_button_link": "",
-        "article_article": "",
-        "blog_blog": "",
-        "post_limit_blog": 3
-      }
-    },
     "custom_liquid": {
       "type": "custom_liquid",
       "settings": {
@@ -110,9 +69,6 @@
     "image_with_text",
     "media_list_JrhYTk",
     "product_list_t4fXyL",
-    "featured_products",
-    "featured_collections",
-    "blog_posts",
     "custom_liquid"
   ]
 }

@@ -1,1 +1,28 @@
-{"type":"footer","name":"Footer Group","sections":{"footer":{"type":"footer","settings":{}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "text_heading": "Signup for Newsletter",
+        "text_checkbox": "By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.",
+        "text_website_disclaimer": "Hippie Water PRODUCTS Are not AVAILABLE FOR SHIPPING IN ALABAMA, Alaska, Arkansas, California, Delaware, Idaho, Iowa, Mississippi, Montana, Nebraska, Nevada, New jersey, Tennessee, and Utah. KEEP OUT OF REACH OF CHILDREN. FDA HAS NOT EVALUATED THIS PRODUCT FOR SAFETY OR EFFICACY. NOT INTENDED FOR SALE TO PERSONS UNDER THE AGE OF 21. CONSULT YOUR PHYSICIAN BEFORE USE IF YOU ARE PREGNANT, NURSING, HAVE ANY KNOWN OR SUSPECTED ALLERGIES OR MEDICAL CONDITIONS, OR ARE TAKING ANY MEDICATION. THIS PRODUCT IMPAIRS YOUR ABILITY TO DRIVE A VEHICLE OR OPERATE MACHINERY. THIS PRODUCT IS DERIVED FROM HEMP AND CONTAINS DELTA-9-TETRAHYDROCANNABINOL (“THC”), WHICH COULD RESULT IN A FAILED DRUG TEST. FOR ANY QUESTIONS OR CONCERNS CONTACT SAYHIGH@HIPPIEWATER.COM.* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.",
+        "image_footer_logo": "shopify://shop_images/LogosEditables-23_a72a0074-d600-420e-8c6f-14ff57204590.png",
+        "menu": "footer"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
