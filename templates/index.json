@@ -12,7 +12,7 @@
     "image_with_text": {
       "type": "image_with_text",
       "settings": {
-        "text_heading_primary": "A Better-For-You Buzz,",
+        "text_heading_primary": "This is text",
         "text_heading_secondary": "All In One Can",
         "text_hero_body_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
         "text_social_proof_copy": "132 Verified 5-star reviews",
@@ -40,6 +40,7 @@
         "text_flavor_heading": "Explore Our Flavors",
         "text_flavor_body_copy": "Bright, juicy flavors made with real fruit juice sourced from Italy, crafted to match your mood and elevate your vibe.",
         "url_link": "",
+        "image_product_image_one": "shopify://shop_images/Group_10122640_941da115-4b45-485f-b30c-2f0cc8aaee40.png",
         "text_text": "4-Pack  |  5mg Hemp-Derived THC",
         "text_paragraph": "Juicy peach meets bright lemon, with a snap of ginger to keep things interesting.",
         "url_button_link": "",
