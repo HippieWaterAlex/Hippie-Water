@@ -34,6 +34,7 @@
     },
     "image_with_text": {
       "type": "image_with_text",
+      "disabled": true,
       "settings": {
         "text_heading_primary": "A Better-For-You Beverage",
         "text_heading_secondary": "All In One Can",
