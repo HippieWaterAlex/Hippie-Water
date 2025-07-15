@@ -14,6 +14,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: Clever;
+  src: url({{ 'Clever-Bold.otf' | asset_url }}) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Clever;
+  src: url({{ 'Clever-Light.otf' | asset_url }}) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --base-color-neutral--black: black;
   --hw_offblack: #24201f;
@@ -654,6 +670,11 @@ figcaption {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1;
+}
+
+.heading-style-h2.product-page-product-title {
+  font-family: Galanogrotesque, Arial, sans-serif;
+  font-weight: 700;
 }
 
 .page-wrapper {
@@ -1892,7 +1913,7 @@ figcaption {
   padding-bottom: 0;
   padding-left: 5rem;
   display: flex;
-  position: sticky;
+  position: relative;
 }
 
 .product-header_price-wrapper {
@@ -5305,6 +5326,10 @@ figcaption {
   inset: 0%;
 }
 
+.product-page-sticky-container {
+  position: sticky;
+}
+
 @media screen and (min-width: 1440px) {
   .social-wrapper {
     justify-content: flex-start;
@@ -8017,6 +8042,20 @@ figcaption {
   font-family: 'Galanogrotesque';
   src: url({{ 'GalanoGrotesque-Bold.otf' | asset_url }}) format('opentype');
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Clever';
+  src: url({{ 'Clever-Bold.otf' | asset_url }}) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Clever';
+  src: url({{ 'Clever-Light.otf' | asset_url }}) format('opentype');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
