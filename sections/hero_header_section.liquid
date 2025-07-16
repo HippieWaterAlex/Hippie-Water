@@ -1,0 +1,58 @@
+<header class="section_header36 color-scheme-2"><div class="w-layout-grid header36_component"><div li-content-for-blocks="" id="w-node-ce28e13e-dea7-5489-c8f7-cb0d16a9632a-cc28f703" class="header36_content">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+{% when 'review-stars' %}
+            <div li-block="review-stars" class="w-layout-hflex hippie_review_container">
+                    <img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+
+                    <img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+
+                    <img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+
+                    <img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+
+                    <img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+
+                    
+                    <div class="text-block-45">
+{{ block.settings.text_hero_social_proof }}
+</div>
+
+                    
+                </div>
+    <div class="margin-bottom"><h1 li-block="Heading" class="heading-style-h1-7">
+{{ section.settings.text_heading }}
+</h1>
+</div><p li-block="subheading" class="text-size-medium-7">
+{{ section.settings.text_paragraph }}
+</p>
+{% when 'cta-buttons' %}
+            <div li-block="cta-buttons" class="margin-top">
+                    
+                    {% when 'cta-primary-button' %}
+            <div li-block="cta_primary_button" class="cta_primary_button">
+                    
+                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                    
+                </div>
+    
+                    
+                    {% when 'cta-secondary-button' %}
+            <div li-block="cta_secondary_button" class="cta_secondary_button">
+                    
+                    <a href="{{ block.settings.url_hero_secondary_button_link }}" class="hw-secondary-button w-button"> {{ block.settings.text_hero_secondary_button_text }} </a>
+
+                    
+                </div>
+    
+                    
+                </div>
+    {% endcase %}
+{% endfor %}
+
+    </div>
+<div class="header36_image-wrapper"><img loading="eager" alt="{{ section.settings.image_image.alt }}" src="{{ section.settings.image_image | img_url: 'master' }}" class="header36_image">
+</div></div></header> {% schema %} {"tag":"header","name":"Hero Header Section","class":"section_header-home","blocks":[{"name":"review-stars","type":"review-stars","settings":[{"id":"text_hero_social_proof","type":"text","label":"Hero Social Proof","default":"132 Verified 5-star reviews"}]},{"name":"cta-buttons","type":"cta-buttons","settings":null},{"name":"cta_primary_button","type":"cta-primary-button","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Learn More"}]},{"name":"cta_secondary_button","type":"cta-secondary-button","settings":[{"id":"url_hero_secondary_button_link","type":"url","label":"Hero Secondary Button Link"},{"id":"text_hero_secondary_button_text","type":"text","label":"Hero Secondary Button Text","default":"Sign Up"}]},{"type":"@app"}],"settings":[{"id":"text_heading","type":"text","label":"Heading","default":"Elevate Your Experience with Better Beverages"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Our mission is to provide a refreshing alternative to alcohol with our delicious, better-for-you beverages. Enjoy the taste and benefits without the drawbacks."},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"Hero Header Section","category":"Liquify","blocks":[{"type":"review-stars"},{"type":"cta-buttons"},{"type":"cta-primary-button"},{"type":"cta-secondary-button"}]}]} {% endschema %}
