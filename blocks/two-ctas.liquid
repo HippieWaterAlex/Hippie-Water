@@ -1,0 +1,10 @@
+<div li-block="two-ctas" class="margin-top two-ctas">
+                    
+                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                    
+                    <a href="{{ block.settings.url_hero_secondary_button_link }}" class="hw-secondary-button w-button"> {{ block.settings.text_hero_secondary_button_text }} </a>
+
+                    
+                </div>
+     {% schema %} {"name":"two-ctas","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Purchase Now"},{"id":"url_hero_secondary_button_link","type":"url","label":"Hero Secondary Button Link"},{"id":"text_hero_secondary_button_text","type":"text","label":"Hero Secondary Button Text","default":"Learn More"}],"presets":[{"name":"two-ctas"}]} {% endschema %}
