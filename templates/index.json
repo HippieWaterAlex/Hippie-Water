@@ -11,15 +11,31 @@
   "sections": {
     "hero_header_section_gURVBp": {
       "type": "hero_header_section",
+      "blocks": {
+        "review_stars_CTxe4M": {
+          "type": "review-stars",
+          "settings": {
+            "text_hero_social_proof": "132 Verified 5-star reviews"
+          }
+        },
+        "two_buttons_hUM6hz": {
+          "type": "two-buttons",
+          "settings": {
+            "url_hero_primary_button_link": "",
+            "text_hero_primary_button_text": "Learn More",
+            "url_hero_secondary_button_link": "",
+            "text_hero_secondary_button_text": "Sign Up"
+          }
+        }
+      },
+      "block_order": [
+        "review_stars_CTxe4M",
+        "two_buttons_hUM6hz"
+      ],
       "name": "Hero Header Section",
       "settings": {
-        "text_hero_social_proof": "5,000 Verified 5-star reviews",
         "text_heading": "A Better-For-You Buzz. All In One Can.",
         "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
-        "url_hero_primary_button_link": "shopify://collections/all",
-        "text_hero_primary_button_text": "Purchase Now",
-        "url_hero_secondary_button_link": "",
-        "text_hero_secondary_button_text": "Learn More",
         "image_image": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
