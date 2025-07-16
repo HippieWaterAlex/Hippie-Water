@@ -9,46 +9,15 @@
  */
 {
   "sections": {
-    "hero_1_yN3Yk4": {
-      "type": "hero_1",
-      "name": "Hero 1",
+    "hero_fpayba": {
+      "type": "hero",
+      "name": "Hero",
       "settings": {
-        "text_heading": "A Better-For-You Buzz. All In One Can.",
-        "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
-        "url_primary_button_link": "shopify://collections/all",
-        "text_primary_button_copy": "Purchase Now",
-        "text_secondary_button_copy": "Learn More",
-        "image_hero_image_1": "shopify://shop_images/IMG_0062.jpg",
-        "image_hero_image_2": "shopify://shop_images/IMG_0060.jpg",
-        "image_hero_image_3": "shopify://shop_images/IMG_0068.jpg",
-        "image_hero_image_4": "shopify://shop_images/IMG_2670_5.jpg",
-        "image_hero_image_5": "shopify://shop_images/IMG_3873_VSCO.JPG_2.jpg",
-        "image_hero_image_6": "shopify://shop_images/IMG_2879_3_Small_6b2e7a0a-d759-4292-be5f-21bc05e179c8.jpg",
-        "image_hero_image_7": "shopify://shop_images/IMG_0062.jpg",
-        "image_hero_image_8": "shopify://shop_images/IMG_0060.jpg",
-        "image_hero_image_9": "shopify://shop_images/IMG_0068.jpg",
-        "image_hero_image_10": "shopify://shop_images/IMG_3873_VSCO.JPG_2.jpg",
-        "image_hero_image_11": "shopify://shop_images/IMG_2879_3_Small_6b2e7a0a-d759-4292-be5f-21bc05e179c8.jpg",
-        "image_hero_image_12": "shopify://shop_images/IMG_0062.jpg"
-      }
-    },
-    "image_with_text": {
-      "type": "image_with_text",
-      "disabled": true,
-      "settings": {
-        "text_heading_primary": "A Better-For-You Beverage",
-        "text_heading_secondary": "All In One Can",
-        "text_hero_body_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
         "text_social_proof_copy": "132 Verified 5-star reviews",
-        "url_button_link": "shopify://products/hippie-water-sample-bundle",
-        "text_hero_button_primary": "Purchase Now",
-        "image_hero_image_secondary": "shopify://shop_images/IMG_0068.jpg",
-        "text_uvp_header_one": "Feel-Good Functionality",
-        "text_uvp_body_one": "Turn down the noise, keep the good vibes.",
-        "text_uvp_header_two": "Real Fruit Juice",
-        "text_uvp_body_two": "Natually sweetened with 15% juice from Italy.",
-        "text_uvp_header_three": "Clean Ingredients, Clear Mind",
-        "text_uvp_body_three": "No artificial sugars or sweeteners.",
+        "text_heading_primary": "A Better-For-You Buzz,",
+        "text_hero_body_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
+        "url_button_link": "",
+        "text_hero_button_primary": "Purchase Now                                                        Arrow Right",
         "image_hero_image_primary": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
@@ -90,8 +59,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "hero_1_yN3Yk4",
-    "image_with_text",
+    "hero_fpayba",
     "media_list_JrhYTk",
     "product_list_t4fXyL",
     "custom_liquid"
