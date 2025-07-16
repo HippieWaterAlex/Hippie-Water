@@ -9,44 +9,18 @@
  */
 {
   "sections": {
-    "hero_fpayba": {
-      "type": "hero",
-      "name": "Hero",
+    "hero_header_section_gURVBp": {
+      "type": "hero_header_section",
+      "name": "Hero Header Section",
       "settings": {
-        "text_social_proof_copy": "132 Verified 5-star reviews",
-        "text_heading_primary": "A Better-For-You Buzz,",
-        "text_hero_body_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
-        "url_button_link": "",
-        "text_hero_button_primary": "Purchase Now                                                        Arrow Right",
-        "image_hero_image_primary": "shopify://shop_images/IMG_2670_5.jpg"
-      }
-    },
-    "media_list_JrhYTk": {
-      "type": "media_list",
-      "name": "Media_List",
-      "settings": {}
-    },
-    "product_list_t4fXyL": {
-      "type": "product_list",
-      "name": "Product_List",
-      "settings": {
-        "text_flavor_heading": "Explore Our Flavors",
-        "text_flavor_body_copy": "Bright, juicy flavors made with real fruit juice sourced from Italy, crafted to match your mood and elevate your vibe.",
-        "url_product_image_link_one": "",
-        "text_product_one_copy": "4-Pack  |  5mg Hemp-Derived THC",
-        "text_product_description_one": "Juicy peach meets bright lemon, with a snap of ginger to keep things interesting.",
-        "url_product_button_link_one": "shopify://products/garden-party",
-        "text_product_button_text_one": "Purchase Now",
-        "url_product_image_link_two": "shopify://products/island-getaway",
-        "text_product_two_copy": "4-pack  |  5mg Hemp-Derived THC",
-        "text_product_description_two": "Bold pomegranate and rich blood orange come together in a smooth, citrusy twist.",
-        "url_product_button_link_two": "shopify://products/island-getaway",
-        "text_product_button_text_two": "Purchase Now",
-        "url_product_image_link_three": "shopify://products/island-getaway-1",
-        "text_product_three_copy": "4-pack  |  5mg Hemp-Derived THC",
-        "text_product_description_three": "Lush watermelon and zesty lime with a hint of chili for just the right kick.",
-        "url_product_button_link_three": "",
-        "text_product_button_text_three": "Purchase Now"
+        "text_hero_social_proof": "5,000 Verified 5-star reviews",
+        "text_heading": "A Better-For-You Buzz. All In One Can.",
+        "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
+        "url_hero_primary_button_link": "shopify://collections/all",
+        "text_hero_primary_button_text": "Purchase Now",
+        "url_hero_secondary_button_link": "",
+        "text_hero_secondary_button_text": "Learn More",
+        "image_image": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
     "custom_liquid": {
@@ -59,9 +33,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "hero_fpayba",
-    "media_list_JrhYTk",
-    "product_list_t4fXyL",
+    "hero_header_section_gURVBp",
     "custom_liquid"
   ]
 }
