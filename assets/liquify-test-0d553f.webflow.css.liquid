@@ -83,15 +83,6 @@
   --link-color--color: white;
 }
 
-.w-layout-grid {
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
-}
-
 .w-checkbox {
   margin-bottom: 5px;
   padding-left: 20px;
@@ -135,6 +126,15 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
   box-shadow: 0 0 3px 1px #3898ec;
+}
+
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
 }
 
 .w-layout-hflex {
@@ -9957,10 +9957,6 @@ figcaption {
   }
 }
 
-#w-node-_06462976-48d3-3500-a506-d0be0671f78a-de99e86e, #w-node-_06462976-48d3-3500-a506-d0be0671f790-de99e86e, #w-node-_06462976-48d3-3500-a506-d0be0671f796-de99e86e {
-  align-self: start;
-}
-
 #w-node-_5eccf730-c887-5204-0e0c-693f99a7329a-99a7328f {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: start;
@@ -9972,6 +9968,10 @@ figcaption {
 
 #w-node-_5eccf730-c887-5204-0e0c-693f99a732bf-99a7328f {
   justify-self: center;
+}
+
+#w-node-_9bbe0370-2913-845b-b0b9-56635d4a8952-5d4a8942, #w-node-_9bbe0370-2913-845b-b0b9-56635d4a8958-5d4a8942, #w-node-_9bbe0370-2913-845b-b0b9-56635d4a895e-5d4a8942 {
+  align-self: start;
 }
 
 #w-node-ce28e13e-dea7-5489-c8f7-cb0d16a9632a-cc28f703 {
@@ -10266,15 +10266,19 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-_06462976-48d3-3500-a506-d0be0671f77c-de99e86e {
+  #w-node-_5eccf730-c887-5204-0e0c-693f99a732bf-99a7328f, #w-node-_5eccf730-c887-5204-0e0c-693f99a732d3-99a7328f {
+    justify-self: start;
+  }
+
+  #w-node-_9bbe0370-2913-845b-b0b9-56635d4a8944-5d4a8942 {
     order: 9999;
   }
 
-  #w-node-_06462976-48d3-3500-a506-d0be0671f77e-de99e86e {
+  #w-node-_9bbe0370-2913-845b-b0b9-56635d4a8946-5d4a8942 {
     justify-self: auto;
   }
 
-  #w-node-_5eccf730-c887-5204-0e0c-693f99a732bf-99a7328f, #w-node-_5eccf730-c887-5204-0e0c-693f99a732d3-99a7328f, #w-node-ce28e13e-dea7-5489-c8f7-cb0d16a9632a-cc28f703 {
+  #w-node-ce28e13e-dea7-5489-c8f7-cb0d16a9632a-cc28f703 {
     justify-self: start;
   }
 
