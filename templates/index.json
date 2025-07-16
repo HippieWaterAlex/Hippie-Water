@@ -23,6 +23,17 @@
         "image_image": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
+    "logo_banner_Gbkqbj": {
+      "type": "logo_banner",
+      "name": "Logo Banner",
+      "settings": {
+        "text_text": "As Heard On",
+        "image_logo_1": "shopify://shop_images/Vulkan_Background_Removed_1.png",
+        "image_logo_2": "shopify://shop_images/GMA_Logo_1.png",
+        "image_logo_3": "shopify://shop_images/KTLA5_Logo_2.png",
+        "image_logo_4": "shopify://shop_images/E_News_Current_Logo.png"
+      }
+    },
     "custom_liquid": {
       "type": "custom_liquid",
       "settings": {
@@ -34,6 +45,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_header_section_gURVBp",
+    "logo_banner_Gbkqbj",
     "custom_liquid"
   ]
 }
