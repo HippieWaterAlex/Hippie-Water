@@ -11,49 +11,31 @@
   "sections": {
     "hero_header_section_gURVBp": {
       "type": "hero_header_section",
-      "blocks": {
-        "review_stars_zFyHhm": {
-          "type": "review-stars",
-          "settings": {
-            "text_hero_social_proof": "5,000 Verified 5-star reviews"
-          }
-        },
-        "hero_content_pDLWcW": {
-          "type": "hero_content",
-          "settings": {
-            "text_heading": "A Better-For-You Buzz, All In One Can.",
-            "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul."
-          }
-        },
-        "two_ctas_rXiYWy": {
-          "type": "two_ctas",
-          "settings": {
-            "url_hero_primary_button_link": "",
-            "text_hero_primary_button_text": "Purchase Now",
-            "url_hero_secondary_button_link": "",
-            "text_hero_secondary_button_text": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "review_stars_zFyHhm",
-        "hero_content_pDLWcW",
-        "two_ctas_rXiYWy"
-      ],
       "name": "Hero Header Section",
       "settings": {
+        "text_hero_social_proof": "132 Verified 5-star reviews",
+        "text_heading": "Elevate Your Experience with Better Beverages",
+        "text_paragraph": "Our mission is to provide a refreshing alternative to alcohol with our delicious, better-for-you beverages. Enjoy the taste and benefits without the drawbacks.",
+        "url_hero_primary_button_link": "",
+        "text_hero_primary_button_text": "Learn More",
+        "url_hero_secondary_button_link": "",
+        "text_hero_secondary_button_text": "Sign Up",
         "image_image": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
-    "logo_banner_Gbkqbj": {
+    "logo_banner_faE7Dy": {
       "type": "logo_banner",
       "name": "Logo Banner",
       "settings": {
-        "text_text": "As Heard On",
-        "image_logo_1": "shopify://shop_images/Vulkan_Background_Removed_1.png",
-        "image_logo_2": "shopify://shop_images/GMA_Logo_1.png",
-        "image_logo_3": "shopify://shop_images/KTLA5_Logo_2.png",
-        "image_logo_4": "shopify://shop_images/E_News_Current_Logo.png"
+        "text_text": "Trusted by top brands worldwide"
+      }
+    },
+    "logo_banner_section_677FtG": {
+      "type": "logo_banner_section",
+      "name": "Logo Banner Section",
+      "settings": {
+        "text_section_header": "Where the Word’s Been Spreading",
+        "image_logoimage": "shopify://shop_images/Vulkan_Background_Removed_1.png"
       }
     },
     "custom_liquid": {
@@ -67,7 +49,8 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_header_section_gURVBp",
-    "logo_banner_Gbkqbj",
+    "logo_banner_faE7Dy",
+    "logo_banner_section_677FtG",
     "custom_liquid"
   ]
 }
