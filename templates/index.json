@@ -73,7 +73,8 @@
       "type": "product_list",
       "name": "Product List",
       "settings": {
-        "text_text": "Sparkling"
+        "collection_collection": "featured-collection",
+        "collection_collection_limit": 6
       }
     },
     "benefits_2_aEJFwn": {
