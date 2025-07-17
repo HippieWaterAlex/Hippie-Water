@@ -15,9 +15,9 @@
         "two_ctas_yYz8PV": {
           "type": "two-ctas",
           "settings": {
-            "url_hero_primary_button_link": "",
+            "url_hero_primary_button_link": "shopify://collections/all",
             "text_hero_primary_button_text": "Purchase Now",
-            "url_hero_secondary_button_link": "",
+            "url_hero_secondary_button_link": "shopify://pages/contact",
             "text_hero_secondary_button_text": "Learn More"
           }
         }
