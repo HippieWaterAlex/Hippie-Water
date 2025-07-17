@@ -27,9 +27,9 @@
       ],
       "name": "Hero Header Section",
       "settings": {
-        "text_hero_social_proof": "132 Verified 5-star reviews",
-        "text_heading": "Elevate Your Experience with Better Beverages",
-        "text_paragraph": "Our mission is to provide a refreshing alternative to alcohol with our delicious, better-for-you beverages. Enjoy the taste and benefits without the drawbacks.",
+        "text_hero_social_proof": "5,000 Verified 5-star reviews",
+        "text_heading": "A Better-For-You Beverage, All In One Can.",
+        "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
         "image_image": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
@@ -37,7 +37,7 @@
       "type": "logo_banner_section",
       "name": "Logo Banner Section",
       "settings": {
-        "text_section_header": "Where the Word’s Been Spreading",
+        "text_section_header": "Who's Talking About Us",
         "image_logo_image_1": "shopify://shop_images/Vulkan_Background_Removed_1.png",
         "image_logo_image_2": "shopify://shop_images/GMA_Logo_1.png",
         "image_logo_image_3": "shopify://shop_images/E_News_Current_Logo.png",
@@ -62,8 +62,9 @@
       "settings": {
         "text_heading": "Discover a New Way to Enjoy Life",
         "text_paragraph": "Our beverages offer a delicious alternative to traditional alcohol, allowing you to enjoy social moments without compromise. Experience the joy of flavor, wellness, and connection with every sip.",
-        "text_benefit_1": "Crafted for flavor without the hangover.",
-        "text_benefit_2": "Low in calories, high in satisfaction.",
+        "image_icon_1": "shopify://shop_images/LogosEditables-05_e2b88c4f-4a72-4073-9840-b0a5b8118dda.png",
+        "text_benefit_1": "15% fruit juice from Italy",
+        "text_benefit_2": "5mg of organic hemp-derived thc",
         "text_benefit_3": "Perfect for any occasion, day or night.",
         "text_benefit_4": "Perfect for any occasion, day or night."
       }
