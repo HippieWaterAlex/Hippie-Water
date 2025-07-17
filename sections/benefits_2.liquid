@@ -1,0 +1,62 @@
+<div class="padding-global-15"><div class="container-large-2"><div class="padding-section-large-4"><div class="layout254_component"><div class="margin-bottom margin-xxlarge"><div class="text-align-center"><div class="max-width-large align-center"><div class="margin-bottom"><div class="text-style-tagline">
+{{ section.settings.text_subheader }}
+</div>
+</div><div class="margin-bottom"><h2 class="heading-style-h2-5">
+{{ section.settings.text_heading }}
+</h2>
+</div><p class="text-size-medium-9">
+{{ section.settings.text_paragraph }}
+</p>
+</div></div></div><div class="w-layout-grid layout254_content-bottom"><div class="w-layout-grid layout254_left"><div class="layout254_item"><div class="margin-bottom"><div class="layout254_item-icon-wrapper"><img class="icon-1x1-medium-3 w-embed" src="{{ section.settings.image_icon_1 | img_url: 'master' }}" alt="{{ section.settings.image_icon_1.alt }}">
+</div></div><div class="margin-bottom"><h3 class="heading-style-h5-2">
+{{ section.settings.text_benefit_header_1 }}
+</h3>
+</div><p class="paragraph-4">
+{{ section.settings.text_benefit_text_1 }}
+</p>
+</div><div class="layout254_item"><div class="margin-bottom"><div class="layout254_item-icon-wrapper"><img class="icon-1x1-medium-3 w-embed" src="{{ section.settings.image_icon_2 | img_url: 'master' }}" alt="{{ section.settings.image_icon_2.alt }}">
+</div></div><div class="margin-bottom"><h3 class="heading-style-h5-2">
+{{ section.settings.text_benefit_header_2 }}
+</h3>
+</div><p>
+{{ section.settings.text_benefit_text_2 }}
+</p>
+</div></div><div id="w-node-_2942b1d9-481c-a65c-b3a9-b9632a9b439d-2a9b4379" class="layout254_image-wrapper"><img loading="lazy" alt="{{ section.settings.image_main_image.alt }}" src="{{ section.settings.image_main_image | img_url: 'master' }}" class="layout254_image">
+</div><div class="w-layout-grid layout254_right"><div class="layout254_item"><div class="margin-bottom"><div class="layout254_item-icon-wrapper"><img class="icon-1x1-medium-3 w-embed" src="{{ section.settings.image_icon_3 | img_url: 'master' }}" alt="{{ section.settings.image_icon_3.alt }}">
+</div></div><div class="margin-bottom"><h3 class="heading-style-h5-2">
+{{ section.settings.text_benefit_header_3 }}
+</h3>
+</div><p class="paragraph-5">
+{{ section.settings.text_benefit_text_3 }}
+</p>
+</div><div class="layout254_item"><div class="margin-bottom"><div class="layout254_item-icon-wrapper"><img class="icon-1x1-medium-3 w-embed" src="{{ section.settings.image_icon_4 | img_url: 'master' }}" alt="{{ section.settings.image_icon_4.alt }}">
+</div></div><div class="margin-bottom"><h3 class="heading-style-h5-2">
+{{ section.settings.text_benefit_header_4 }}
+</h3>
+</div><p>
+{{ section.settings.text_benefit_text_4 }}
+</p>
+</div></div></div>{% for block in section.blocks %}
+    {% if block.type == "two-ctas" %}
+                    <div li-block="two-ctas" class="two-ctas light-mode centered">
+                                    
+                                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button light-mode w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                                    
+                                    <a href="{{ block.settings.url_hero_secondary_button_link }}" class="hw-secondary-button light-mode w-button"> {{ block.settings.text_hero_secondary_button_text }} </a>
+
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+{% for block in section.blocks %}
+    {% if block.type == "one-cta" %}
+                    <div li-block="one-cta" class="one-cta light-mode centered">
+                                    
+                                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button light-mode w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div> {% schema %} {"tag":"section","name":"Benefits 2","class":"section_layout254-2 color-scheme-2","blocks":[{"name":"two-ctas","type":"two-ctas","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Purchase Now"},{"id":"url_hero_secondary_button_link","type":"url","label":"Hero Secondary Button Link"},{"id":"text_hero_secondary_button_text","type":"text","label":"Hero Secondary Button Text","default":"Learn More"}]},{"name":"one-cta","type":"one-cta","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Purchase Now"}]}],"settings":[{"id":"text_subheader","type":"text","label":"Subheader","default":"Refresh"},{"id":"text_heading","type":"text","label":"Heading","default":"Discover the Joy of Better Beverages"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Our beverages offer a delicious alternative to traditional alcohol. Enjoy all the flavor without the downsides."},{"id":"image_icon_1","type":"image_picker","label":"Icon 1"},{"id":"text_benefit_header_1","type":"text","label":"Benefit Header 1","default":"Healthier Choice"},{"id":"text_benefit_text_1","type":"text","label":"Benefit Text 1","default":"Crafted with natural ingredients for a guilt-free refreshment."},{"id":"image_icon_2","type":"image_picker","label":"Icon 2"},{"id":"text_benefit_header_2","type":"text","label":"Benefit Header 2","default":"Social Experience"},{"id":"text_benefit_text_2","type":"text","label":"Benefit Text 2","default":"Perfect for gatherings, bringing people together without the hangover."},{"id":"image_main_image","type":"image_picker","label":"Main Image"},{"id":"image_icon_3","type":"image_picker","label":"Icon 3"},{"id":"text_benefit_header_3","type":"text","label":"Benefit Header 3","default":"Variety of Flavors"},{"id":"text_benefit_text_3","type":"text","label":"Benefit Text 3","default":"Choose from a range of unique and exciting flavors."},{"id":"image_icon_4","type":"image_picker","label":"Icon 4"},{"id":"text_benefit_header_4","type":"text","label":"Benefit Header 4","default":"Sustainable Practices"},{"id":"text_benefit_text_4","type":"text","label":"Benefit Text 4","default":"Committed to eco-friendly sourcing and packaging for a better planet."}],"presets":[{"name":"Benefits 2","category":"Liquify","blocks":[{"type":"two-ctas"},{"type":"one-cta"}]}]} {% endschema %}
