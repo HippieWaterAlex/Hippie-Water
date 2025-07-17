@@ -1,5 +1,29 @@
-<header class="section_header36 color-scheme-2"><div class="w-layout-grid header36_component"><div li-content-for-theme-blocks="" id="w-node-ce28e13e-dea7-5489-c8f7-cb0d16a9632a-cc28f703" class="header36_content">
-{% content_for 'blocks' %}
+<header class="section_header36 color-scheme-2"><div class="w-layout-grid header36_component"><div id="w-node-ce28e13e-dea7-5489-c8f7-cb0d16a9632a-cc28f703" class="header36_content"><div class="w-layout-hflex hippie_review_container"><img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+<img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+<img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+<img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+<img loading="lazy" src="{{ 'Star2.svg' | asset_url }}" alt="" class="hero_stars">
+<div class="text-block-45">
+{{ section.settings.text_hero_social_proof }}
 </div>
-<div class="header36_image-wrapper"><img loading="eager" alt="{{ section.settings.image_image.alt }}" src="{{ section.settings.image_image | img_url: 'master' }}" class="header36_image">
-</div></div></header> {% schema %} {"tag":"header","name":"Hero Header Section","class":"section_header-home","blocks":[{"type":"two-ctas"},{"type":"one-cta"},{"type":"@app"}],"settings":[{"id":"text_hero_social_proof","type":"text","label":"Hero Social Proof","default":"132 Verified 5-star reviews"},{"id":"text_heading","type":"text","label":"Heading","default":"A Better-For-You Buzz, All In One Can."},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul."},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"Hero Header Section","category":"Liquify","blocks":[{"type":"two-ctas"},{"type":"one-cta"}]}]} {% endschema %}
+</div><div class="margin-bottom"><h1 class="heading-style-h1-7">
+{{ section.settings.text_heading }}
+</h1>
+</div><p class="text-size-medium-7">
+{{ section.settings.text_paragraph }}
+</p>
+{% for block in section.blocks %}
+    {% if block.type == "two-ctas" %}
+                    <div li-block="two-ctas" class="margin-top two-ctas">
+                                    
+                                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                                    
+                                    <a href="{{ block.settings.url_hero_secondary_button_link }}" class="hw-secondary-button w-button"> {{ block.settings.text_hero_secondary_button_text }} </a>
+
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+</div><div class="header36_image-wrapper"><img loading="eager" alt="{{ section.settings.image_image.alt }}" src="{{ section.settings.image_image | img_url: 'master' }}" class="header36_image">
+</div></div></header> {% schema %} {"tag":"header","name":"Hero Header Section","class":"section_header-home","blocks":[{"name":"two-ctas","type":"two-ctas","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Purchase Now"},{"id":"url_hero_secondary_button_link","type":"url","label":"Hero Secondary Button Link"},{"id":"text_hero_secondary_button_text","type":"text","label":"Hero Secondary Button Text","default":"Learn More"}]}],"settings":[{"id":"text_hero_social_proof","type":"text","label":"Hero Social Proof","default":"132 Verified 5-star reviews"},{"id":"text_heading","type":"text","label":"Heading","default":"A Better-For-You Buzz, All In One Can."},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul."},{"id":"image_image","type":"image_picker","label":"Image"}],"presets":[{"name":"Hero Header Section","category":"Liquify","blocks":[{"type":"two-ctas"}]}]} {% endschema %}
