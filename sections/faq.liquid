@@ -10,19 +10,19 @@
 {% when '@app' %}
 {% render block %}
 {% when 'faq-item' %}
-            <div li-block="faq-item" class="faq1_list">
+            <div li-block="faq-item" class="faq1_accordion">
                     
-                    <div class="faq1_accordion"><div data-w-id="edf7e2f0-4b55-7ab4-da55-ebb6c7c6f507" class="faq1_question"><div class="text-size-medium-10 text-weight-bold">
+                    <div data-w-id="607cae4e-f294-339a-3ba6-62dfe9c5ad29" class="faq1_question"><div class="text-size-medium-12 text-weight-bold">
 {{ block.settings.text_question }}
 </div>
-<div class="faq1_icon-wrapper"><div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path></svg></div></div></div><div class="faq1_answer"><div class="margin-bottom margin-small"><p class="paragraph-6">
-{{ block.settings.text_answer }}
-</p>
-</div></div></div>
+<div class="faq1_icon-wrapper"><div class="icon-embed-small-2 w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path></svg></div></div></div>
+                    
+                    <div class="faq1_answer"><div class="margin-bottom margin-small"><div class="paragraph-7"> {{ block.settings.richtext_richtext }} </div>
+</div></div>
                     
                 </div>
     {% endcase %}
 {% endfor %}
 
     </div>
-<div class="margin-top margin-xxlarge"><div class="text-align-center"><div class="max-width-medium-2 align-center"><div class="margin-bottom"><h3 class="heading-style-h4-7">Still have questions?</h3></div><p class="text-size-medium-10">We're here to help!</p><div class="margin-top"><div class="button-group-7 is-center"><a href="#" class="hw-secondary-button light-mode w-button">Contact</a></div></div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"FAQ","class":"section_faq1-2 color-scheme-2","blocks":[{"name":"faq-item","type":"faq-item","settings":[{"id":"text_question","type":"text","label":"Question","default":"What are the ingredients?"},{"id":"text_answer","type":"text","label":"Answer","default":"Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you\u2019re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."}]},{"type":"@app"}],"settings":[{"id":"text_heading","type":"text","label":"Heading","default":"FAQs"},{"id":"text_header_subcopy","type":"text","label":"Header Subcopy","default":"Find answers to your questions about our beverages and their benefits."}],"presets":[{"name":"FAQ","category":"Liquify","blocks":[{"type":"faq-item"}]}]} {% endschema %}
+<div class="margin-top margin-xxlarge"><div class="text-align-center"><div class="max-width-medium-2 align-center"><div class="margin-bottom"><h3 class="heading-style-h4-7">Still have questions?</h3></div><p class="text-size-medium-10">We're here to help!</p><div class="margin-top"><div class="button-group-7 is-center"><a href="#" class="hw-secondary-button light-mode w-button">Contact</a></div></div></div></div></div></div></div></div></div> {% schema %} {"tag":"section","name":"FAQ","class":"section_faq1-2 color-scheme-2","blocks":[{"name":"faq-item","type":"faq-item","settings":[{"id":"text_question","type":"text","label":"Question","default":"What are the ingredients?"},{"id":"richtext_richtext","type":"richtext","label":"Richtext","default":"<p>Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you\u2019re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol.<\/p>"}]},{"type":"@app"}],"settings":[{"id":"text_heading","type":"text","label":"Heading","default":"FAQs"},{"id":"text_header_subcopy","type":"text","label":"Header Subcopy","default":"Find answers to your questions about our beverages and their benefits."}],"presets":[{"name":"FAQ","category":"Liquify","blocks":[{"type":"faq-item"}]}]} {% endschema %}
