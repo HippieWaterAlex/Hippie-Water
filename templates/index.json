@@ -33,18 +33,15 @@
         "image_image": "shopify://shop_images/IMG_2670_5.jpg"
       }
     },
-    "logo_banner_faE7Dy": {
-      "type": "logo_banner",
-      "name": "Logo Banner",
-      "settings": {
-        "text_text": "Trusted by top brands worldwide"
-      }
-    },
     "logo_banner_section_677FtG": {
       "type": "logo_banner_section",
       "name": "Logo Banner Section",
       "settings": {
-        "text_section_header": "Where the Word’s Been Spreading"
+        "text_section_header": "Where the Word’s Been Spreading",
+        "image_logo_image_1": "shopify://shop_images/Vulkan_Background_Removed_1.png",
+        "image_logo_image_2": "shopify://shop_images/GMA_Logo_1.png",
+        "image_logo_image_3": "shopify://shop_images/E_News_Current_Logo.png",
+        "image_logo_image_4": "shopify://shop_images/KTLA5_Logo_2.png"
       }
     },
     "custom_liquid": {
@@ -58,7 +55,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "hero_header_section_gURVBp",
-    "logo_banner_faE7Dy",
     "logo_banner_section_677FtG",
     "custom_liquid"
   ]
