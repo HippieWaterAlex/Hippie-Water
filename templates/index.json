@@ -27,7 +27,7 @@
       ],
       "name": "Hero Header Section",
       "settings": {
-        "text_hero_social_proof": "5,000 Verified 5-star reviews",
+        "text_hero_social_proof": "10,000 Verified 5-star reviews",
         "text_heading": "A Better-For-You Beverage, All In One Can.",
         "text_paragraph": "Elevate your every moment with a feel-good ritual that hydrates, relaxes, and uplifts, a lightly sparkling THC beverage designed to nourish your body and soul.",
         "image_image": "shopify://shop_images/IMG_2670_5.jpg"
@@ -94,28 +94,36 @@
           "type": "faq-item",
           "settings": {
             "text_question": "What are the ingredients?",
-            "text_answer": "Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."
+            "richtext_richtext": "<p>Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol.</p>"
           }
         },
         "faq_item_NtBnrj": {
           "type": "faq-item",
           "settings": {
             "text_question": "What are the ingredients?",
-            "text_answer": "Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."
+            "richtext_richtext": "<p>Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol.</p>"
           }
         },
         "faq_item_f6keRp": {
           "type": "faq-item",
           "settings": {
             "text_question": "What are the ingredients?",
-            "text_answer": "Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."
+            "richtext_richtext": "<p>Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol.</p>"
+          }
+        },
+        "faq_item_Ndi7cY": {
+          "type": "faq-item",
+          "settings": {
+            "text_question": "What are the ingredients?",
+            "richtext_richtext": "<p>Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol.</p>"
           }
         }
       },
       "block_order": [
         "faq_item_nAaEAf",
         "faq_item_NtBnrj",
-        "faq_item_f6keRp"
+        "faq_item_f6keRp",
+        "faq_item_Ndi7cY"
       ],
       "name": "FAQ",
       "settings": {
