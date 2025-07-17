@@ -70,28 +70,6 @@
     },
     "benefits_2_aEJFwn": {
       "type": "benefits_2",
-      "blocks": {
-        "two_ctas_QGdHrM": {
-          "type": "two-ctas",
-          "settings": {
-            "url_hero_primary_button_link": "",
-            "text_hero_primary_button_text": "Purchase Now",
-            "url_hero_secondary_button_link": "",
-            "text_hero_secondary_button_text": "Learn More"
-          }
-        },
-        "one_cta_aH6b37": {
-          "type": "one-cta",
-          "settings": {
-            "url_hero_primary_button_link": "",
-            "text_hero_primary_button_text": "Purchase Now"
-          }
-        }
-      },
-      "block_order": [
-        "two_ctas_QGdHrM",
-        "one_cta_aH6b37"
-      ],
       "name": "Benefits 2",
       "settings": {
         "text_subheader": "Refresh",
