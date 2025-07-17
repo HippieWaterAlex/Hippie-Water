@@ -68,6 +68,46 @@
         "text_benefit_4": "Perfect for any occasion, day or night."
       }
     },
+    "benefits_2_aEJFwn": {
+      "type": "benefits_2",
+      "blocks": {
+        "two_ctas_QGdHrM": {
+          "type": "two-ctas",
+          "settings": {
+            "url_hero_primary_button_link": "",
+            "text_hero_primary_button_text": "Purchase Now",
+            "url_hero_secondary_button_link": "",
+            "text_hero_secondary_button_text": "Learn More"
+          }
+        },
+        "one_cta_aH6b37": {
+          "type": "one-cta",
+          "settings": {
+            "url_hero_primary_button_link": "",
+            "text_hero_primary_button_text": "Purchase Now"
+          }
+        }
+      },
+      "block_order": [
+        "two_ctas_QGdHrM",
+        "one_cta_aH6b37"
+      ],
+      "name": "Benefits 2",
+      "settings": {
+        "text_subheader": "Refresh",
+        "text_heading": "Discover the Joy of Better Beverages",
+        "text_paragraph": "Our beverages offer a delicious alternative to traditional alcohol. Enjoy all the flavor without the downsides.",
+        "text_benefit_header_1": "Healthier Choice",
+        "text_benefit_text_1": "Crafted with natural ingredients for a guilt-free refreshment.",
+        "text_benefit_header_2": "Social Experience",
+        "text_benefit_text_2": "Perfect for gatherings, bringing people together without the hangover.",
+        "image_main_image": "shopify://shop_images/GardenParty.png",
+        "text_benefit_header_3": "Variety of Flavors",
+        "text_benefit_text_3": "Choose from a range of unique and exciting flavors.",
+        "text_benefit_header_4": "Sustainable Practices",
+        "text_benefit_text_4": "Committed to eco-friendly sourcing and packaging for a better planet."
+      }
+    },
     "custom_liquid": {
       "type": "custom_liquid",
       "settings": {
@@ -81,6 +121,7 @@
     "hero_header_section_gURVBp",
     "logo_banner_section_677FtG",
     "benefits_LhKayD",
+    "benefits_2_aEJFwn",
     "custom_liquid"
   ]
 }
