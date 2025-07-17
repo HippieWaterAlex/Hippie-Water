@@ -44,6 +44,30 @@
         "image_logo_image_4": "shopify://shop_images/KTLA5_Logo_2.png"
       }
     },
+    "benefits_LhKayD": {
+      "type": "benefits",
+      "blocks": {
+        "one_cta_gX6Uei": {
+          "type": "one-cta",
+          "settings": {
+            "url_hero_primary_button_link": "",
+            "text_hero_primary_button_text": "Purchase Now"
+          }
+        }
+      },
+      "block_order": [
+        "one_cta_gX6Uei"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "text_heading": "Discover a New Way to Enjoy Life",
+        "text_paragraph": "Our beverages offer a delicious alternative to traditional alcohol, allowing you to enjoy social moments without compromise. Experience the joy of flavor, wellness, and connection with every sip.",
+        "text_benefit_1": "Crafted for flavor without the hangover.",
+        "text_benefit_2": "Low in calories, high in satisfaction.",
+        "text_benefit_3": "Perfect for any occasion, day or night.",
+        "text_benefit_4": "Perfect for any occasion, day or night."
+      }
+    },
     "custom_liquid": {
       "type": "custom_liquid",
       "settings": {
@@ -56,6 +80,7 @@
   "order": [
     "hero_header_section_gURVBp",
     "logo_banner_section_677FtG",
+    "benefits_LhKayD",
     "custom_liquid"
   ]
 }
