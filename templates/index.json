@@ -69,6 +69,13 @@
         "text_benefit_4": "Perfect for any occasion, day or night."
       }
     },
+    "product_list_CaniMH": {
+      "type": "product_list",
+      "name": "Product List",
+      "settings": {
+        "text_text": "Sparkling"
+      }
+    },
     "benefits_2_aEJFwn": {
       "type": "benefits_2",
       "name": "Benefits 2",
@@ -144,6 +151,7 @@
     "hero_header_section_gURVBp",
     "logo_banner_section_677FtG",
     "benefits_LhKayD",
+    "product_list_CaniMH",
     "benefits_2_aEJFwn",
     "faq_EJmqDm",
     "custom_liquid"
