@@ -87,6 +87,42 @@
         "text_benefit_text_4": "Committed to eco-friendly sourcing and packaging for a better planet."
       }
     },
+    "faq_EJmqDm": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_nAaEAf": {
+          "type": "faq-item",
+          "settings": {
+            "text_question": "What are the ingredients?",
+            "text_answer": "Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."
+          }
+        },
+        "faq_item_NtBnrj": {
+          "type": "faq-item",
+          "settings": {
+            "text_question": "What are the ingredients?",
+            "text_answer": "Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."
+          }
+        },
+        "faq_item_f6keRp": {
+          "type": "faq-item",
+          "settings": {
+            "text_question": "What are the ingredients?",
+            "text_answer": "Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_nAaEAf",
+        "faq_item_NtBnrj",
+        "faq_item_f6keRp"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "text_heading": "FAQs",
+        "text_header_subcopy": "Find answers to your questions about our beverages and their benefits."
+      }
+    },
     "custom_liquid": {
       "type": "custom_liquid",
       "settings": {
@@ -101,6 +137,7 @@
     "logo_banner_section_677FtG",
     "benefits_LhKayD",
     "benefits_2_aEJFwn",
+    "faq_EJmqDm",
     "custom_liquid"
   ]
 }
