@@ -1,0 +1,47 @@
+<div class="padding-global-14"><div class="container-large-2"><div class="padding-section-large-3"><div class="layout207_component"><div class="w-layout-grid layout207_content"><div class="layout207_image-wrapper"><img loading="lazy" alt="{{ section.settings.image_image.alt }}" src="{{ section.settings.image_image | img_url: 'master' }}" class="layout207_image">
+</div><div id="w-node-_56ea14ff-6366-9f0a-0f47-473dbd9d5e89-bd9d5e81" class="layout207_content-right-2"><div class="margin-bottom"><h2 class="heading-style-h2-4">
+{{ section.settings.text_heading }}
+</h2>
+</div><div class="margin-bottom"><p class="text-size-medium-8">
+{{ section.settings.text_paragraph }}
+</p>
+</div><div class="layout207_item-list"><div id="w-node-_56ea14ff-6366-9f0a-0f47-473dbd9d5e91-bd9d5e81" class="layout207_item"><div class="layout207_item-icon-wrapper"><img class="icon-embed-xsmall w-embed" src="{{ section.settings.image_icon_1 | img_url: 'master' }}" alt="{{ section.settings.image_icon_1.alt }}">
+</div><div class="layout207_item-text-wrapper"><p class="paragraph">
+{{ section.settings.text_benefit_1 }}
+</p>
+</div></div><div id="w-node-_56ea14ff-6366-9f0a-0f47-473dbd9d5e97-bd9d5e81" class="layout207_item"><div class="layout207_item-icon-wrapper"><img class="icon-embed-xsmall w-embed" src="{{ section.settings.image_icon_2 | img_url: 'master' }}" alt="{{ section.settings.image_icon_2.alt }}">
+</div><div class="layout207_item-text-wrapper"><p class="paragraph-2">
+{{ section.settings.text_benefit_2 }}
+</p>
+</div></div><div id="w-node-_56ea14ff-6366-9f0a-0f47-473dbd9d5e9d-bd9d5e81" class="layout207_item"><div class="layout207_item-icon-wrapper"><img class="icon-embed-xsmall w-embed" src="{{ section.settings.image_icon_3 | img_url: 'master' }}" alt="{{ section.settings.image_icon_3.alt }}">
+</div><div class="layout207_item-text-wrapper"><p class="paragraph-3">
+{{ section.settings.text_benefit_3 }}
+</p>
+</div></div><div class="layout207_item"><div class="layout207_item-icon-wrapper"><img class="icon-embed-xsmall w-embed" src="{{ section.settings.image_icon_4 | img_url: 'master' }}" alt="{{ section.settings.image_icon_4.alt }}">
+</div><div class="layout207_item-text-wrapper"><p class="paragraph-3">
+{{ section.settings.text_benefit_4 }}
+</p>
+</div></div></div>{% for block in section.blocks %}
+    {% if block.type == "two-ctas" %}
+                    <div li-block="two-ctas" class="two-ctas light-mode">
+                                    
+                                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button light-mode w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                                    
+                                    <a href="{{ block.settings.url_hero_secondary_button_link }}" class="hw-secondary-button w-button"> {{ block.settings.text_hero_secondary_button_text }} </a>
+
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+{% for block in section.blocks %}
+    {% if block.type == "one-cta" %}
+                    <div li-block="one-cta" class="one-cta light-mode">
+                                    
+                                    <a href="{{ block.settings.url_hero_primary_button_link }}" class="hw-primary-button light-mode w-button"> {{ block.settings.text_hero_primary_button_text }} </a>
+
+                                    
+                            </div>
+            {% endif %}
+{% endfor %}
+</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Benefits","class":"section_layout207-2 color-scheme-2","blocks":[{"name":"two-ctas","type":"two-ctas","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Purchase Now"},{"id":"url_hero_secondary_button_link","type":"url","label":"Hero Secondary Button Link"},{"id":"text_hero_secondary_button_text","type":"text","label":"Hero Secondary Button Text","default":"Learn More"}]},{"name":"one-cta","type":"one-cta","settings":[{"id":"url_hero_primary_button_link","type":"url","label":"Hero Primary Button Link"},{"id":"text_hero_primary_button_text","type":"text","label":"Hero Primary Button Text","default":"Purchase Now"}]}],"settings":[{"id":"image_image","type":"image_picker","label":"Image"},{"id":"text_heading","type":"text","label":"Heading","default":"Discover a New Way to Enjoy Life"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"Our beverages offer a delicious alternative to traditional alcohol, allowing you to enjoy social moments without compromise. Experience the joy of flavor, wellness, and connection with every sip."},{"id":"image_icon_1","type":"image_picker","label":"Icon 1"},{"id":"text_benefit_1","type":"text","label":"Benefit 1","default":"Crafted for flavor without the hangover."},{"id":"image_icon_2","type":"image_picker","label":"Icon 2"},{"id":"text_benefit_2","type":"text","label":"Benefit 2","default":"Low in calories, high in satisfaction."},{"id":"image_icon_3","type":"image_picker","label":"Icon 3"},{"id":"text_benefit_3","type":"text","label":"Benefit 3","default":"Perfect for any occasion, day or night."},{"id":"image_icon_4","type":"image_picker","label":"Icon 4"},{"id":"text_benefit_4","type":"text","label":"Benefit 4","default":"Perfect for any occasion, day or night."}],"presets":[{"name":"Benefits","category":"Liquify","blocks":[{"type":"two-ctas"},{"type":"one-cta"}]}]} {% endschema %}
