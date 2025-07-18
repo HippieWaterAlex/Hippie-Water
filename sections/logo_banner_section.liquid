@@ -1,8 +1,14 @@
 <div class="padding-global-13"><div class="container-large-2"><div class="padding-section-medium"><div class="logo1_component"><div class="logo1_content"><div class="margin-bottom margin-medium"><div class="text-align-center"><div class="max-width-large align-center"><h2 class="heading-style-h6-3">
 {{ section.settings.text_section_header }}
 </h2>
-</div></div></div><div class="logo1_list"><img loading="lazy" alt="{{ section.settings.image_logo_image_1.alt }}" src="{{ section.settings.image_logo_image_1 | img_url: 'master' }}" class="logo1_logo">
-<img loading="lazy" alt="{{ section.settings.image_logo_image_2.alt }}" src="{{ section.settings.image_logo_image_2 | img_url: 'master' }}" class="logo1_logo">
-<img loading="lazy" alt="{{ section.settings.image_logo_image_3.alt }}" src="{{ section.settings.image_logo_image_3 | img_url: 'master' }}" class="logo1_logo">
-<img loading="lazy" alt="{{ section.settings.image_logo_image_4.alt }}" src="{{ section.settings.image_logo_image_4 | img_url: 'master' }}" class="logo1_logo">
-</div></div></div></div></div></div> {% schema %} {"tag":"section","name":"Logo Banner Section","class":"section_logo1 color-scheme-2","settings":[{"id":"text_section_header","type":"text","label":"Section Header","default":"Where the Word\u2019s Been Spreading"},{"id":"image_logo_image_1","type":"image_picker","label":"logo_image_1"},{"id":"image_logo_image_2","type":"image_picker","label":"logo_image_2"},{"id":"image_logo_image_3","type":"image_picker","label":"logo_image_3"},{"id":"image_logo_image_4","type":"image_picker","label":"logo_image_4"}],"presets":[{"name":"Logo Banner Section","category":"Liquify","blocks":[]}]} {% endschema %}
+</div></div></div><div li-content-for-blocks="" class="logo1_list">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when '@app' %}
+{% render block %}
+<img li-block="Logo" alt="{{ section.settings.image_logo_image_1.alt }}" src="{{ section.settings.image_logo_image_1 | img_url: 'master' }}" loading="lazy" class="logo1_logo">
+{% endcase %}
+{% endfor %}
+
+    </div>
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"Logo Banner Section","class":"section_logo1 color-scheme-2","blocks":[{"type":"@app"}],"settings":[{"id":"text_section_header","type":"text","label":"Section Header","default":"Where the Word\u2019s Been Spreading"},{"id":"image_logo_image_1","type":"image_picker","label":"logo_image_1"}],"presets":[{"name":"Logo Banner Section","category":"Liquify","blocks":[]}]} {% endschema %}
