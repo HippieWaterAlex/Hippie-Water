@@ -12,12 +12,12 @@
 <div class="text-block-45">
 {{ section.settings.text_text }}
 </div>
-</div></div></div></div></div></div><div li-content-for-blocks="" class="testimonial21_component">
+</div></div></div></div></div></div><div class="testimonial21_component"><div li-content-for-blocks="" class="testimonial21_loop-trigger">
 {% for block in section.blocks %}
 {% case block.type %}
 {% when '@app' %}
 {% render block %}
-<div class="testimonial21_loop-trigger">{% when 'review' %}
+{% when 'review' %}
             <div li-block="Review" class="testimonial21_card">
                     
                     <div class="testimonial21_content-top"><div class="text-size-medium-11"> {{ block.settings.richtext_richtext }} </div>
@@ -30,8 +30,8 @@
 </div></div></div>
                     
                 </div>
-    </div>{% endcase %}
+    {% endcase %}
 {% endfor %}
 
     </div>
-</div> {% schema %} {"tag":"section","name":"Reviews Carousel","class":"section_testimonial21-2 color-scheme-2","blocks":[{"name":"Review","type":"review","settings":[{"id":"richtext_richtext","type":"richtext","label":"Richtext","default":"<p>\"This stuff was pure magic. I don\u2019t regularly use anything with \u2618\ufe0f, and haven\u2019t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"<\/p>"},{"id":"image_image","type":"image_picker","label":"Image"},{"id":"text_reviewer_name","type":"text","label":"Reviewer Name","default":"Emily Johnson"}]},{"type":"@app"}],"settings":[{"id":"text_heading","type":"text","label":"Heading","default":"Customer Testimonials"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"These drinks changed my social experience completely!"},{"id":"text_text","type":"text","label":"Text","default":"132 Verified 5-star reviews"}],"presets":[{"name":"Reviews Carousel","category":"Liquify","blocks":[{"type":"review"}]}]} {% endschema %}
+</div></div> {% schema %} {"tag":"section","name":"Reviews Carousel","class":"section_testimonial21-2 color-scheme-2","blocks":[{"name":"Review","type":"review","settings":[{"id":"richtext_richtext","type":"richtext","label":"Richtext","default":"<p>\"This stuff was pure magic. I don\u2019t regularly use anything with \u2618\ufe0f, and haven\u2019t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"<\/p>"},{"id":"image_image","type":"image_picker","label":"Image"},{"id":"text_reviewer_name","type":"text","label":"Reviewer Name","default":"Emily Johnson"}]},{"type":"@app"}],"settings":[{"id":"text_heading","type":"text","label":"Heading","default":"Customer Testimonials"},{"id":"text_paragraph","type":"text","label":"Paragraph","default":"These drinks changed my social experience completely!"},{"id":"text_text","type":"text","label":"Text","default":"132 Verified 5-star reviews"}],"presets":[{"name":"Reviews Carousel","category":"Liquify","blocks":[{"type":"review"}]}]} {% endschema %}

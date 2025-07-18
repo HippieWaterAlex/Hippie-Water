@@ -374,10 +374,23 @@ figcaption {
   margin: 3rem 0 0;
 }
 
-.margin-top.margin-small, .margin-top.margin-xxlarge, .margin-top.margin-xxlarge {
+.margin-top.margin-small {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+}
+
+.margin-top.margin-xxlarge {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-top.cta {
+  justify-content: center;
 }
 
 .padding-bottom {
@@ -6045,7 +6058,7 @@ figcaption {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  margin-top: -3px;
+  margin-top: -18px;
 }
 
 .faq1_list {
@@ -6061,7 +6074,9 @@ figcaption {
 }
 
 .button-group-7.is-center {
+  flex-flow: row;
   justify-content: center;
+  display: flex;
 }
 
 .button-group-7.is-right {
@@ -6078,6 +6093,8 @@ figcaption {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
@@ -7218,8 +7235,8 @@ figcaption {
 }
 
 .padding-section-large-4 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .heading-style-h2-5 {
@@ -7248,6 +7265,7 @@ figcaption {
   color: var(--hw-green);
   font-size: var(--body-font-size);
   line-height: var(--body-font-height);
+  margin-bottom: 2rem;
 }
 
 .text-size-medium-10.text-weight-bold {
@@ -7405,7 +7423,7 @@ figcaption {
 
 .padding-section-large-8 {
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .padding-global-19 {
