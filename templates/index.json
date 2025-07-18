@@ -95,6 +95,83 @@
         "text_benefit_text_4": "Committed to eco-friendly sourcing and packaging for a better planet."
       }
     },
+    "reviews_carousel_WBDwfe": {
+      "type": "reviews_carousel",
+      "blocks": {
+        "review_GLG3tA": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_QAVw8d": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_DpVDVe": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_jHLV7t": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_7frcUj": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_8EGRWx": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_LNWaFb": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        },
+        "review_BUdMxJ": {
+          "type": "review",
+          "settings": {
+            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
+            "text_reviewer_name": "Emily Johnson"
+          }
+        }
+      },
+      "block_order": [
+        "review_GLG3tA",
+        "review_QAVw8d",
+        "review_DpVDVe",
+        "review_jHLV7t",
+        "review_7frcUj",
+        "review_8EGRWx",
+        "review_LNWaFb",
+        "review_BUdMxJ"
+      ],
+      "name": "Reviews Carousel",
+      "settings": {
+        "text_heading": "Customer Testimonials",
+        "text_paragraph": "These drinks changed my social experience completely!",
+        "text_text": "132 Verified 5-star reviews"
+      }
+    },
     "faq_EJmqDm": {
       "type": "faq",
       "blocks": {
@@ -154,6 +231,7 @@
     "benefits_LhKayD",
     "product_list_CaniMH",
     "benefits_2_aEJFwn",
+    "reviews_carousel_WBDwfe",
     "faq_EJmqDm",
     "custom_liquid"
   ]
