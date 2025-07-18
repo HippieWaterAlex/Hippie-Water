@@ -95,99 +95,6 @@
         "text_benefit_text_4": "Committed to eco-friendly sourcing and packaging for a better planet."
       }
     },
-    "reviews_carousel_WeAHWR": {
-      "type": "reviews_carousel",
-      "blocks": {
-        "review_qdDEnr": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_jpJzkz": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_mJnAf3": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_JEDNah": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_9afnJ6": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_Kk3Lez": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_rw6YtQ": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_X6eaU7": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_bqhYVr": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        },
-        "review_cNLJXy": {
-          "type": "review",
-          "settings": {
-            "richtext_richtext": "<p>\"This stuff was pure magic. I don’t regularly use anything with ☘️, and haven’t smoked since Amsterdam 20 years ago. Lol So I was quite nervous trying this out. BUT it was wonderful!!...\"</p>",
-            "text_reviewer_name": "Emily Johnson"
-          }
-        }
-      },
-      "block_order": [
-        "review_qdDEnr",
-        "review_jpJzkz",
-        "review_mJnAf3",
-        "review_JEDNah",
-        "review_9afnJ6",
-        "review_Kk3Lez",
-        "review_rw6YtQ",
-        "review_X6eaU7",
-        "review_bqhYVr",
-        "review_cNLJXy"
-      ],
-      "name": "Reviews Carousel",
-      "settings": {
-        "text_heading": "Customer Testimonials",
-        "text_paragraph": "These drinks changed my social experience completely!",
-        "text_text": "132 Verified 5-star reviews"
-      }
-    },
     "faq_EJmqDm": {
       "type": "faq",
       "blocks": {
@@ -247,7 +154,6 @@
     "benefits_LhKayD",
     "product_list_CaniMH",
     "benefits_2_aEJFwn",
-    "reviews_carousel_WeAHWR",
     "faq_EJmqDm",
     "custom_liquid"
   ]
