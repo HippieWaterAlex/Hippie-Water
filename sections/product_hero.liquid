@@ -9,12 +9,6 @@
   "group": ""
 }</script></a>
                             
-                            <div class="product-header4_list-wrapper hide-tablet"><div class="product-header4_list"><div class="product-header4_item"><a href="#" class="product-header4_lightbox-link w-inline-block w-lightbox"><div class="product-header4_image-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg" alt="" class="product-header4_image">
-</div><script type="application/json" class="w-json">{
-  "items": [],
-  "group": ""
-}</script></a></div></div></div>
-                            
                     {% endfor %}    </div>
 <div li-content-for-theme-blocks="" class="product-header4_product-details">
 {% content_for 'blocks' %}
@@ -45,4 +39,4 @@
       }
     });
   }); 
-</script></div> {% schema %} {"tag":"section","name":"Product Hero","class":"section_product-header","blocks":[{"type":"@app"}],"presets":[{"name":"Product Hero","category":"Liquify","blocks":[]}],"enabled_on":{"templates":["product"]}} {% endschema %}
+</script></div> {% schema %} {"tag":"section","name":"Product Hero","class":"section_product-header","blocks":[{"type":"breadbrumbs"},{"type":"product-name"},{"type":"price"},{"type":"description"},{"type":"add-to-cart"},{"type":"details"},{"type":"@app"}],"presets":[{"name":"Product Hero","category":"Liquify","blocks":[{"type":"breadbrumbs"},{"type":"product-name"},{"type":"price"},{"type":"description"},{"type":"add-to-cart"},{"type":"details"}]}],"enabled_on":{"templates":["product"]}} {% endschema %}
