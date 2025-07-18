@@ -6,9 +6,13 @@
 {% case block.type %}
 {% when '@app' %}
 {% render block %}
-<img li-block="Logo" alt="{{ section.settings.image_logo_image_1.alt }}" src="{{ section.settings.image_logo_image_1 | img_url: 'master' }}" loading="lazy" class="logo1_logo">
-{% endcase %}
+{% when 'logo' %}
+            <div li-block="Logo">
+                    <img loading="lazy" alt="{{ block.settings.image_logo_image_1.alt }}" src="{{ block.settings.image_logo_image_1 | img_url: 'master' }}" class="logo1_logo">
+
+                </div>
+    {% endcase %}
 {% endfor %}
 
     </div>
-</div></div></div></div></div> {% schema %} {"tag":"section","name":"Logo Banner Section","class":"section_logo1 color-scheme-2","blocks":[{"type":"@app"}],"settings":[{"id":"text_section_header","type":"text","label":"Section Header","default":"Where the Word\u2019s Been Spreading"},{"id":"image_logo_image_1","type":"image_picker","label":"logo_image_1"}],"presets":[{"name":"Logo Banner Section","category":"Liquify","blocks":[]}]} {% endschema %}
+</div></div></div></div></div> {% schema %} {"tag":"section","name":"Logo Banner Section","class":"section_logo1 color-scheme-2","blocks":[{"name":"Logo","type":"logo","settings":[{"id":"image_logo_image_1","type":"image_picker","label":"logo_image_1"}]},{"type":"@app"}],"settings":[{"id":"text_section_header","type":"text","label":"Section Header","default":"Where the Word\u2019s Been Spreading"}],"presets":[{"name":"Logo Banner Section","category":"Liquify","blocks":[{"type":"logo"}]}]} {% endschema %}
