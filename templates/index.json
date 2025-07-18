@@ -35,13 +35,33 @@
     },
     "logo_banner_section_677FtG": {
       "type": "logo_banner_section",
+      "blocks": {
+        "logo_NkB8WA": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo_6iP3AG": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo_4MAzQA": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo_68negF": {
+          "type": "logo",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo_NkB8WA",
+        "logo_6iP3AG",
+        "logo_4MAzQA",
+        "logo_68negF"
+      ],
       "name": "Logo Banner Section",
       "settings": {
-        "text_section_header": "Who's Talking About Us",
-        "image_logo_image_1": "shopify://shop_images/Vulkan_Background_Removed_1.png",
-        "image_logo_image_2": "shopify://shop_images/GMA_Logo_1.png",
-        "image_logo_image_3": "shopify://shop_images/E_News_Current_Logo.png",
-        "image_logo_image_4": "shopify://shop_images/KTLA5_Logo_2.png"
+        "text_section_header": "Who's Talking About Us"
       }
     },
     "benefits_LhKayD": {
