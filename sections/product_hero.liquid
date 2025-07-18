@@ -1,17 +1,22 @@
 <div li-render="custom-wrapper" class="padding-global padding-section-small"><div class="container-large"><div class="product-header_component"><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<div li-element="product-variant-container" class="w-layout-grid product-header_layout" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div id="w-node-_4b0e9b61-6f53-1185-9fdd-143753136862-5313685d" class="swiper-container is-product-gallery"><div class="swiper is-product-gallery"><div id="my-gallery" li-for:inside="media in product.media" class="swiper-wrapper is-product-gallery">
+<div li-element="product-variant-container" class="w-layout-grid product-header_layout" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div li-for:inside="media in product.media" class="product-header4_gallery">
         {% for media in product.media %}                            
-                            {% if media.media_type == 'image' %}    <div li-if="media.media_type == 'image'" class="swiper-slide is-product-gallery">
-    <div class="product-header_gallery-lightbox"><img loading="lazy" li-object:src="media | image_url: width: 1000" li-object:alt="media.alt" src="{{ media | image_url: width: 1000 }}" alt="{{ media.alt }}" class="product-header_gallery-image">
-</div>    </div>
-{% endif %}
+                            <a href="#" class="product-header4_lightbox-link w-inline-block w-lightbox">{% if media.media_type == 'image' %}    <div li-if="media.media_type == 'image'" class="product-header4_main-image-wrapper">
+    <img li-object:src="media | image_url: width: 1000" li-object:alt="media.alt" alt="{{ media.alt }}" src="{{ media | image_url: width: 1000 }}" loading="lazy" class="product-header4_main-image">
+    </div>
+{% endif %}<script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script></a>
                             
-                            {% if media.media_type == 'video' %}    <div li-if="media.media_type == 'video'" class="swiper-slide is-product-gallery">
-    <div class="product-header_gallery-lightbox"><div li-object="media | video_tag: controls: true" class="product-header_gallery-image">{{ media | video_tag: controls: true }}</div></div>    </div>
-{% endif %}
+                            <div class="product-header4_list-wrapper hide-tablet"><div class="product-header4_list"><div class="product-header4_item"><a href="#" class="product-header4_lightbox-link w-inline-block w-lightbox"><div class="product-header4_image-wrapper"><img loading="lazy" src="https://uploads-ssl.webflow.com/624380709031623bfe4aee60/6243807090316203124aee66_placeholder-image.svg" alt="" class="product-header4_image">
+</div><script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script></a></div></div></div>
                             
                     {% endfor %}    </div>
-</div><div class="swiper-slide is-product-thumbnail is-active hide"></div></div><div li-content-for-theme-blocks="" id="w-node-_4b0e9b61-6f53-1185-9fdd-143753136879-5313685d" class="product-header_product-details">
+<div li-content-for-theme-blocks="" class="product-header4_product-details">
 {% content_for 'blocks' %}
 </div>
 </div></div></div></div><div class="hide w-embed w-script"><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
@@ -40,4 +45,4 @@
       }
     });
   }); 
-</script></div> {% schema %} {"tag":"section","name":"Product Hero","class":"section_product-header","blocks":[{"type":"product-name"},{"type":"product-name"},{"type":"product-price"},{"type":"availability"},{"type":"add-to-cart"},{"type":"description"},{"type":"@app"}],"presets":[{"name":"Product Hero","category":"Liquify","blocks":[{"type":"product-name"},{"type":"product-name"},{"type":"product-price"},{"type":"availability"},{"type":"add-to-cart"},{"type":"description"}]}],"enabled_on":{"templates":["product"]}} {% endschema %}
+</script></div> {% schema %} {"tag":"section","name":"Product Hero","class":"section_product-header","blocks":[{"type":"@app"}],"presets":[{"name":"Product Hero","category":"Liquify","blocks":[]}],"enabled_on":{"templates":["product"]}} {% endschema %}
