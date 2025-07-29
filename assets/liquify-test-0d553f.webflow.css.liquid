@@ -6303,7 +6303,8 @@ figcaption {
 .variant-button-row {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  flex-wrap: wrap;
+  flex-flow: row;
+  width: 100%;
   display: flex;
 }
 
@@ -6322,7 +6323,7 @@ figcaption {
 
 .product-header2_main-image {
   aspect-ratio: 5 / 4;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   height: 100%;
 }
@@ -7484,19 +7485,29 @@ figcaption {
   background-color: var(--hippie-cream);
   border: 1px #000;
   border-radius: 16px;
-  width: 100px;
+  flex-flow: row;
+  flex: none;
+  width: 32%;
   height: 150px;
+  display: flex;
 }
 
 .flavor_container.is_active {
   border: 2px solid var(--hw_yellow);
 }
 
+.flavor_container.flavor-container-loop-card {
+  flex: 0 auto;
+  width: 50%;
+}
+
 .image-44 {
   box-sizing: border-box;
   aspect-ratio: 2 / 3;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 16px;
+  width: 100%;
+  height: auto;
 }
 
 .div-block-1141 {
@@ -7560,6 +7571,14 @@ figcaption {
   border-color: var(--\<unknown\|relume-variable-neutral-shade-7\>);
   background-color: var(--\<unknown\|relume-variable-neutral-shade-7\>);
   color: var(--\<unknown\|relume-variable-neutral-white\>);
+}
+
+.flavor-select-loop-container {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex: none;
+  width: 66%;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
