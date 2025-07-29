@@ -1,4 +1,4 @@
-<div class="padding-global padding-section-small"><div class="container-large"><div class="footer_main-wrapper"><div class="footer_link-grid">{% for link in linklists[section.settings.footer_menu].links %}    <div li-for="link in linklists[section.settings.footer_menu].links" class="footer_link-column">
+<div class="padding-global padding-section-small"><div class="container-large disclaimer-container"><div class="footer_main-wrapper"><div class="footer_link-grid">{% for link in linklists[section.settings.footer_menu].links %}    <div li-for="link in linklists[section.settings.footer_menu].links" class="footer_link-column">
                                     
                             <div li-for:inside="child_link in link.links" class="footer_link-list">
         {% for child_link in link.links %}                            
@@ -20,7 +20,7 @@
 </span>
 </label><input type="submit" data-wait="" id="w-node-_5eccf730-c887-5204-0e0c-693f99a732ae-99a7328f" class="button w-button" value="Subscribe to Newsletter">
 {% endform %}
-<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div><div class="footer_divider"></div><div class="padding-global padding-section-small"><div class="container-large"><p class="disclaimer_copy">
+<div class="hide w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="hide w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div><div class="footer_divider"></div><div class="padding-global padding-section-small"><div class="container-large disclaimer-container"><p class="disclaimer_copy">
 {{ section.settings.text_website_disclaimer }}
 </p>
 </div></div><div class="footer_divider"></div><div class="padding-global padding-section-small"><div class="container-large"><div class="footer_sub-footer"><a href="{{ routes.root_url }}" li-object:href="routes.root_url" class="footer_logo-link w-inline-block"><img src="{{ section.settings.image_footer_logo | img_url: 'master' }}" loading="lazy" alt="{{ section.settings.image_footer_logo.alt }}" class="footer_logo">
