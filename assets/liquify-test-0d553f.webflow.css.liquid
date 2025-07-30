@@ -6572,7 +6572,8 @@ figcaption {
 
 .product-header4_main-image {
   aspect-ratio: 5 / 6;
-  object-fit: cover;
+  object-fit: contain;
+  border-radius: 16px;
   width: 100%;
   height: 100%;
 }
@@ -7674,6 +7675,7 @@ figcaption {
 
 .quantity-selector-card {
   background-color: var(--hippie-cream);
+  cursor: pointer;
   border-radius: 16px;
   justify-content: center;
   align-items: center;
@@ -8864,6 +8866,12 @@ figcaption {
     font-size: 2.25rem;
   }
 
+  .product-header4_gallery {
+    height: 400px;
+    display: flex;
+    overflow: scroll;
+  }
+
   .product-header4_product-details {
     max-height: none;
     padding-right: 0;
@@ -8881,19 +8889,24 @@ figcaption {
   }
 
   .section_product-header4.color-scheme-2 {
-    display: none;
+    display: block;
   }
 
   .product-header4_layout {
     grid-column-gap: 5rem;
     grid-row-gap: 2.5rem;
+    flex-flow: column;
     grid-template-columns: 1fr;
     grid-auto-flow: row;
     min-height: auto;
+    display: flex;
   }
 
   .product-header4_lightbox-link {
+    width: auto;
+    height: 100%;
     margin-bottom: 0;
+    display: block;
   }
 
   .product-header4_component {
@@ -9113,6 +9126,10 @@ figcaption {
 
   .product-header_component-2 {
     padding-bottom: 2.5rem;
+  }
+
+  .image-hero-container {
+    height: 100%;
   }
 }
 
@@ -11307,22 +11324,6 @@ figcaption {
   justify-self: start;
 }
 
-#w-node-_8452d4fa-d91a-467e-ea05-6b0126434653-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b0126434654-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b0126434669-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b012643466c-5313685d {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_8452d4fa-d91a-467e-ea05-6b0126434690-5313685d {
-  grid-area: 1 / 2 / 3 / 3;
-}
-
-#w-node-_8452d4fa-d91a-467e-ea05-6b01264346c4-5313685d {
-  order: 9999;
-}
-
-#w-node-_8452d4fa-d91a-467e-ea05-6b01264346c8-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346c9-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346cd-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346d1-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346d5-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346d9-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346dd-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346e1-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b01264346e5-5313685d {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
 #w-node-_020413c5-8dec-2c46-93a1-274ba44a608a-a44a6088 {
   grid-area: span 1 / span 1 / span 1 / span 1;
   place-self: center;
@@ -11423,14 +11424,6 @@ figcaption {
   #w-node-_175fd21a-17bf-bcb4-c19e-9a679b16ea5d-9b16ea22 {
     order: -9999;
     justify-self: stretch;
-  }
-
-  #w-node-_8452d4fa-d91a-467e-ea05-6b0126434669-5313685d, #w-node-_8452d4fa-d91a-467e-ea05-6b012643466c-5313685d {
-    grid-area: span 1 / span 1 / span 1 / span 1;
-  }
-
-  #w-node-_8452d4fa-d91a-467e-ea05-6b0126434690-5313685d {
-    grid-area: 2 / 1 / 3 / 2;
   }
 
   #w-node-_020413c5-8dec-2c46-93a1-274ba44a608a-a44a6088 {
