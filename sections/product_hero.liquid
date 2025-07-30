@@ -12,7 +12,7 @@
 </div>{% for product in section.settings.collection_flavorcollection.products limit: section.settings.collection_flavorcollection_limit %}
 <div class="flavor-select-loop-container">
     
-    <div lif-for="product in collection.products" class="div-block-1142"><div class="flavor_container flavor-container-loop-card"><a li-object:href="product.url" href="{{ product.url }}" class="w-inline-block"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" alt="" class="image-44">
+    <div if-for="product in collection.products" class="div-block-1142"><div class="flavor_container flavor-container-loop-card"><a li-object:href="product.url" href="{{ product.url }}" class="w-inline-block"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" alt="" class="image-44">
 </a></div></div>
     
 </div>
@@ -154,22 +154,7 @@
   ],
   "group": "Product Overview Modal 1"
 }</script></a></div></div></div></div><a data-w-id="8452d4fa-d91a-467e-ea05-6b01264346e9" href="#" class="product-header2_modal_close-button w-inline-block"><img loading="lazy" src="https://uploads-ssl.webflow.com/611612d8f3fe0984cee8d325/6219658da2c038784aa245de_icon_close-modal.svg" alt="">
-</a></div><div class="product-header2_modal-background-overlay"></div></div></div></div><div class="product-header_component"><script src="{{ 'liquify_custom.js' | asset_url }}" type="text/javascript"></script>
-<div li-element="product-variant-container" class="w-layout-grid product-header_layout" x-data="handleVariant({{ product | json | escape }}, {{ product.options_by_name | json | escape }}, {{ product.selected_or_first_available_variant | json | escape }})" x-init="$nextTick(() => { activateVariants() })" @setbundleitem.window="updateBundleItem($event.detail.product, $event.detail.quantity)"><div li-for:inside="media in product.media" class="product-header4_gallery">
-        {% for media in product.media %}                            
-                            <a href="#" class="product-header4_lightbox-link w-inline-block w-lightbox">{% if media.media_type == 'image' %}    <div li-if="media.media_type == 'image'" class="product-header4_main-image-wrapper">
-    <img li-object:src="media | image_url: width: 1000" li-object:alt="media.alt" alt="{{ media.alt }}" src="{{ media | image_url: width: 1000 }}" loading="lazy" class="product-header4_main-image">
-    </div>
-{% endif %}<script type="application/json" class="w-json">{
-  "items": [],
-  "group": ""
-}</script></a>
-                            
-                    {% endfor %}    </div>
-<div li-content-for-theme-blocks="" class="product-header4_product-details">
-{% content_for 'blocks' %}
-</div>
-</div></div></div></div><div class="hide w-embed w-script"><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
+</a></div><div class="product-header2_modal-background-overlay"></div></div></div></div></div></div><div class="hide w-embed w-script"><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
     const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
       slidesPerView: "auto",
       rewind: false,
@@ -195,4 +180,4 @@
       }
     });
   }); 
-</script></div> {% schema %} {"tag":"section","name":"Product Hero","class":"section_product-header","blocks":[{"type":"breadbrumbs"},{"type":"product-name"},{"type":"price"},{"type":"description"},{"type":"add-to-cart"},{"type":"details"},{"type":"@app"}],"settings":[{"id":"collection_flavorcollection","type":"collection","label":"FlavorCollection"},{"type":"range","id":"collection_flavorcollection_limit","min":1,"max":99,"step":1,"label":"Limit: FlavorCollection","default":6}],"presets":[{"name":"Product Hero","category":"Liquify","blocks":[{"type":"breadbrumbs"},{"type":"product-name"},{"type":"price"},{"type":"description"},{"type":"add-to-cart"},{"type":"details"}]}],"enabled_on":{"templates":["product"]}} {% endschema %}
+</script></div> {% schema %} {"tag":"section","name":"Product Hero","class":"section_product-header","settings":[{"id":"collection_flavorcollection","type":"collection","label":"FlavorCollection"},{"type":"range","id":"collection_flavorcollection_limit","min":1,"max":99,"step":1,"label":"Limit: FlavorCollection","default":6}],"presets":[{"name":"Product Hero","category":"Liquify","blocks":[]}],"enabled_on":{"templates":["product"]}} {% endschema %}
