@@ -9,12 +9,10 @@
  */
 {
   "sections": {
-    "product_hero": {
-      "type": "product_hero",
-      "settings": {
-        "collection_flavorcollection": "5mg-collection",
-        "collection_flavorcollection_limit": 6
-      }
+    "product_hero_2_bBbKVz": {
+      "type": "product_hero_2",
+      "name": "Product Hero 2",
+      "settings": {}
     },
     "recommended_products": {
       "type": "recommended_products",
@@ -26,7 +24,7 @@
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
-    "product_hero",
+    "product_hero_2_bBbKVz",
     "recommended_products"
   ]
 }
