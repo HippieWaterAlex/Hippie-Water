@@ -2,9 +2,7 @@
 </div><script type="application/json" class="w-json">{
   "items": [],
   "group": ""
-}</script></a></div><div li-for:inside="media in product.media" class="product-header2_list-wrapper hide-mobile-portrait">
-        {% for media in product.media %}                            
-                            {% if media.media_type == 'image' and loop.index > 0 and loop.index < 5 %}    <div li-if="media.media_type == 'image' and loop.index > 0 and loop.index < 5" id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434653-5313685d" class="product-header2_list">
+}</script></a></div><div class="product-header2_list-wrapper hide-mobile-portrait">{% if media.media_type == 'image' and loop.index > 0 and loop.index < 5 %}    <div li-if="media.media_type == 'image' and loop.index > 0 and loop.index < 5" id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434653-5313685d" class="product-header2_list">
     <div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434654-5313685d" class="product-header2_item"><a href="#" class="product-header2_lightbox-link w-inline-block w-lightbox"><div class="product-header2_image-wrapper"><img li-object:src="product.media[1].preview_image | image_url" loading="lazy" alt="" src="{{ product.media[1].preview_image | image_url }}" class="product-header2_image-small">
 </div><script type="application/json" class="w-json">{
   "items": [],
@@ -22,10 +20,7 @@
   "items": [],
   "group": ""
 }</script></a></div>    </div>
-{% endif %}
-                            
-                    {% endfor %}    </div>
-<div class="product-header2_gallery-button-wrapper"><a data-w-id="8452d4fa-d91a-467e-ea05-6b0126434665" href="#" class="button-6 is-small is-alternate w-inline-block"><div>Show All Photos</div></a></div></div></div><div class="product-header2_content-bottom"><div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434669-5313685d" class="product-header2_product-title-wrapper"><h1 li-object:text="product.title" class="heading-style-h3-6">
+{% endif %}</div><div class="product-header2_gallery-button-wrapper"><a data-w-id="8452d4fa-d91a-467e-ea05-6b0126434665" href="#" class="button-6 is-small is-alternate w-inline-block"><div>Show All Photos</div></a></div></div></div><div class="product-header2_content-bottom"><div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434669-5313685d" class="product-header2_product-title-wrapper"><h1 li-object:text="product.title" class="heading-style-h3-6">
 {{ product.title }}
 </h1><div class="product-header4_price-wrapper"><div li-object:text="product.price | money" class="heading-style-h5-2">
 {{ product.price | money }}
@@ -33,8 +28,7 @@
 {{ product.description }}
 </p></div></div><div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="product-header2_tabs w-tabs"><div class="product-header2_tabs-menu w-tab-menu"><a data-w-tab="Tab 1" class="product-header2_tab-link w-inline-block w-tab-link w--current"><div>Details</div></a><a data-w-tab="Tab 2" class="product-header2_tab-link w-inline-block w-tab-link"><div>Shipping</div></a><a data-w-tab="Tab 3" class="product-header2_tab-link w-inline-block w-tab-link"><div>Returns</div></a></div><div class="product-header2_tabs-content w-tab-content"><div data-w-tab="Tab 1" class="product-header2_tab-details w-tab-pane w--tab-active"><div class="margin-top-2 margin-small"><p>Our Refreshing Sparkler is made with all-natural ingredients, ensuring a guilt-free indulgence. Enjoy it chilled for the best experience. Perfect for any occasion, it’s a great way to celebrate without the alcohol.</p></div></div><div data-w-tab="Tab 2" class="product-header2_tab-details w-tab-pane"><div class="margin-top-2 margin-small"><p>We offer fast and reliable shipping options to ensure your beverages arrive fresh. Orders over $50 qualify for free shipping. Expect delivery within 3-5 business days.</p></div></div><div data-w-tab="Tab 3" class="product-header2_tab-details w-tab-pane"><div class="margin-top-2 margin-small"><p>If you are not completely satisfied with your purchase, we accept returns within 30 days. Please ensure the product is unopened and in its original packaging. Reach out to our customer service for assistance.</p></div></div></div></div></div><div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434690-5313685d" class="product-header2_product-details"><div class="product-header2_add-to-cart w-form"><form id="email-form" name="email-form" data-name="Email Form" method="get" class="product-header2_default-state" data-wf-page-id="68726256d09e315dde99e886" data-wf-element-id="8452d4fa-d91a-467e-ea05-6b01264346a4"><div class="product-header4_option"><div class="div-block-1141"><div class="form_field-label-2">Flavor:</div><div li-object:text="product.title" class="active-flavor">
 {{ product.title }}
-</div></div><div class="variant-button-row product-flavor-card-container"><div class="flavor_container is_active"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" li-object:alt="product.media[0].alt" alt="{{ product.media[0].alt }}" class="flavor-loop-image">
-</div>{% for product in section.settings.collection_flavorcollection.products limit: section.settings.collection_flavorcollection_limit %}
+</div></div><div class="variant-button-row product-flavor-card-container">{% for product in section.settings.collection_flavorcollection.products limit: section.settings.collection_flavorcollection_limit %}
 <div class="flavor-select-loop-container">
     
     <a li-object:href="flavor_product.url" href="{{ flavor_product.url }}" class="link-block flavor_container w-inline-block"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" alt="" class="flavor-loop-image">
