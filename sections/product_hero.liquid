@@ -739,12 +739,14 @@
 {{ product.title }}
 </div></div><div class="variant-button-row product-flavor-card-container"><div class="Flavor_Container is_active"><img class="Image 44" width="auto" height="auto" alt="{{ product.media[0].alt }}" src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" li-object:alt="product.media[0].alt">
 </div>{% for product in section.settings.collection_flavorcollection.products limit: section.settings.collection_flavorcollection_limit %}
-<div class="Flavor-select-loop-container">
+{% if flavor_product.handle != product.handle %}
+  <div class="Flavor-select-loop-container">
     
     <div class="Flavor_Container Flavor-container-loop-card"><a li-object:href="product.url" href="{{ product.url }}"><img class="Image 44" width="auto" height="auto" alt="inherit" src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url">
 </a></div>
     
 </div>
+{% endif %}
 {% endfor %}
 </div></div><div class="product-header2_option"><div class="form_field-label 3">Quantity
                     </div><input class="form_input 4 is-quantity-input" id="Quantity-5" name="Quantity-5" maxlength="256" data-name="Quantity 5" placeholder="1" type="number">
