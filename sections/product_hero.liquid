@@ -10,6 +10,8 @@
 {{ product.title }}
 </div></div><div class="variant-button-row product-flavor-card-container"><div class="flavor_container is_active"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" li-object:alt="product.media[0].alt" alt="{{ product.media[0].alt }}" class="image-44">
 </div>
+
+{% assign current_handle = product.handle %}
 {% for flavor_product in section.settings.collection_flavorcollection.products %}    
   
                                     
