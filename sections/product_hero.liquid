@@ -12,7 +12,7 @@
 </div>{% for product in section.settings.collection_flavorcollection.products limit: section.settings.collection_flavorcollection_limit %}
 <div class="flavor-select-loop-container">
     
-    <div lif-for="product in collection.products" class="div-block-1142"><div li-stettings:collection="FlavorCollection" class="flavor_container flavor-container-loop-card"><a href="#" class="w-inline-block"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" alt="" class="image-44">
+    <div lif-for="product in collection.products" class="div-block-1142"><div class="flavor_container flavor-container-loop-card"><a li-object:href="product.url" href="{{ product.url }}" class="w-inline-block"><img src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" alt="" class="image-44">
 </a></div></div>
     
 </div>
