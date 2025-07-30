@@ -12,19 +12,39 @@
     "product_hero_2_bBbKVz": {
       "type": "product_hero_2",
       "name": "Product Hero 2",
-      "settings": {}
+      "settings": {
+        "collection_flavorcollection": "",
+        "collection_flavorcollection_limit": 6
+      }
     },
     "recommended_products": {
       "type": "recommended_products",
       "settings": {
         "text_heading": "Recommended"
       }
+    },
+    "17539049017a0d7d04": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_z3Whbg": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_z3Whbg"
+      ],
+      "settings": {}
     }
   },
   "layout": "theme",
   "wrapper": "main.main-wrapper",
   "order": [
     "product_hero_2_bBbKVz",
+    "17539049017a0d7d04",
     "recommended_products"
   ]
 }
