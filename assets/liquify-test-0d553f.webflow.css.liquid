@@ -7494,7 +7494,7 @@ figcaption {
   flex: 1;
   width: 100%;
   height: auto;
-  display: flex;
+  display: block;
 }
 
 .flavor_container.is_active {
@@ -7583,13 +7583,19 @@ figcaption {
 .flavor-select-loop-container {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
+  aspect-ratio: 2 / 3;
   flex: none;
   width: 33%;
+  height: auto;
   display: block;
 }
 
 .div-block-1142 {
   width: 50%;
+}
+
+.link-block {
+  width: 100%;
 }
 
 @media screen and (min-width: 1440px) {
