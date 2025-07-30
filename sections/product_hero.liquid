@@ -741,7 +741,8 @@
 </div>{% for product in section.settings.collection_flavorcollection.products limit: section.settings.collection_flavorcollection_limit %}
 <div class="Flavor-select-loop-container">
     
-     <div li-if="flavor_product.handle != object.product.handle"> <a li-object:href="flavor_product.url"> <img class="Image 44" width="auto" height="auto" alt="inherit" src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" li-object:src="flavor_product.media[0].preview_image | image_url"> </a> </div> 
+    <div class="Flavor_Container Flavor-container-loop-card"><a li-object:href="product.url" href="{{ product.url }}"><img class="Image 44" width="auto" height="auto" alt="inherit" src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url">
+</a></div>
     
 </div>
 {% endfor %}
