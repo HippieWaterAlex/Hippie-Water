@@ -6309,7 +6309,10 @@ figcaption {
 }
 
 .variant-button-row.product-flavor-card-container {
-  flex-flow: wrap;
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+  flex-flow: row;
+  overflow: scroll;
 }
 
 .product-header2_gallery-button-wrapper {
@@ -7587,7 +7590,7 @@ figcaption {
   background-color: var(--hippie-cream);
   border-radius: 16px;
   flex: none;
-  width: 100%;
+  width: 33%;
   height: auto;
   display: block;
 }
@@ -7602,11 +7605,16 @@ figcaption {
 
 .div-block-1143 {
   width: 33%;
-  display: block;
+  display: none;
 }
 
 .div-block-1144, .div-block-1145 {
   width: 100%;
+  display: none;
+}
+
+.div-block-1146, .div-block-1147 {
+  display: none;
 }
 
 @media screen and (min-width: 1440px) {
