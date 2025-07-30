@@ -20,14 +20,6 @@
     "17539049017a0d7d04": {
       "type": "apps",
       "blocks": {
-        "okendo_reviews_summary_fFQihb": {
-          "type": "shopify://apps/okendo/blocks/reviews-summary/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": "garden-party-5mg-4-pack",
-            "heading": "Reviews Summary",
-            "max_text_lines": 5
-          }
-        },
         "okendo_reviews_widget_MmAxrG": {
           "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
@@ -37,7 +29,6 @@
         }
       },
       "block_order": [
-        "okendo_reviews_summary_fFQihb",
         "okendo_reviews_widget_MmAxrG"
       ],
       "settings": {}
