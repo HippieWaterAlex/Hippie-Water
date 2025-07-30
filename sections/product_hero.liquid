@@ -740,6 +740,10 @@
 </div></div><div class="variant-button-row product-flavor-card-container"><div class="Flavor_Container is_active"><img class="Image 44" width="auto" height="auto" alt="{{ product.media[0].alt }}" src="{{ product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="product.media[0].preview_image | image_url" li-object:alt="product.media[0].alt">
 </div>
 
+<p><strong>request.handle:</strong> {{ request.handle }}</p>
+<p><strong>product.handle:</strong> {{ product.handle }}</p>
+
+
 {% for flavor_product in section.settings.collection_flavorcollection.products %}
   <div>
     flavor: {{ flavor_product.handle }} — current: {{ request.handle }}
