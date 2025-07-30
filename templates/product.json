@@ -31,8 +31,8 @@
         "okendo_reviews_widget_MmAxrG": {
           "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "product": "hippie-water-sample-bundle",
-            "widget_type": "combined_widget"
+            "product": "garden-party-5mg-4-pack",
+            "widget_type": "reviews_widget"
           }
         }
       },
