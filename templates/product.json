@@ -13,14 +13,8 @@
       "type": "product_hero_2",
       "name": "Product Hero 2",
       "settings": {
-        "collection_flavorcollection": "",
+        "collection_flavorcollection": "5mg-collection",
         "collection_flavorcollection_limit": 6
-      }
-    },
-    "recommended_products": {
-      "type": "recommended_products",
-      "settings": {
-        "text_heading": "Recommended"
       }
     },
     "17539049017a0d7d04": {
@@ -38,6 +32,71 @@
         "okendo_reviews_widget_z3Whbg"
       ],
       "settings": {}
+    },
+    "recommended_products": {
+      "type": "recommended_products",
+      "settings": {
+        "text_heading": "Recommended"
+      }
+    },
+    "benefits_2_YyaHmL": {
+      "type": "benefits_2",
+      "blocks": {
+        "two_ctas_aejGf3": {
+          "type": "two-ctas",
+          "settings": {
+            "url_hero_primary_button_link": "",
+            "text_hero_primary_button_text": "Purchase Now",
+            "url_hero_secondary_button_link": "",
+            "text_hero_secondary_button_text": "Learn More"
+          }
+        },
+        "one_cta_rQLJXw": {
+          "type": "one-cta",
+          "settings": {
+            "url_hero_primary_button_link": "",
+            "text_hero_primary_button_text": "Purchase Now"
+          }
+        }
+      },
+      "block_order": [
+        "two_ctas_aejGf3",
+        "one_cta_rQLJXw"
+      ],
+      "name": "Benefits 2",
+      "settings": {
+        "text_subheader": "Refresh",
+        "text_heading": "Discover the Joy of Better Beverages",
+        "text_paragraph": "Our beverages offer a delicious alternative to traditional alcohol. Enjoy all the flavor without the downsides.",
+        "text_benefit_header_1": "Healthier Choice",
+        "text_benefit_text_1": "Crafted with natural ingredients for a guilt-free refreshment.",
+        "text_benefit_header_2": "Social Experience",
+        "text_benefit_text_2": "Perfect for gatherings, bringing people together without the hangover.",
+        "text_benefit_header_3": "Variety of Flavors",
+        "text_benefit_text_3": "Choose from a range of unique and exciting flavors.",
+        "text_benefit_header_4": "Sustainable Practices",
+        "text_benefit_text_4": "Committed to eco-friendly sourcing and packaging for a better planet."
+      }
+    },
+    "faq_pxcHHc": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_D3CGi7": {
+          "type": "faq-item",
+          "settings": {
+            "text_question": "What are the ingredients?",
+            "richtext_richtext": "<p>Our beverages are crafted from natural ingredients, including herbal extracts and fruit juices. We prioritize quality and transparency, ensuring you know exactly what you’re consuming. Each drink is designed to be refreshing and enjoyable without the alcohol.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_D3CGi7"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "text_heading": "FAQs",
+        "text_header_subcopy": "Find answers to your questions about our beverages and their benefits."
+      }
     }
   },
   "layout": "theme",
@@ -45,6 +104,8 @@
   "order": [
     "product_hero_2_bBbKVz",
     "17539049017a0d7d04",
-    "recommended_products"
+    "recommended_products",
+    "benefits_2_YyaHmL",
+    "faq_pxcHHc"
   ]
 }
