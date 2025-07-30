@@ -2,18 +2,13 @@
 </div><script type="application/json" class="w-json">{
   "items": [],
   "group": ""
-}</script></a></div>{% for media in product.media %}    <div li-for="media in product.media" class="product-header2_list-wrapper hide-mobile-portrait">
-                                    
-                            {% if forloop.index > 1 and forloop.index <= 4 %}    <div li-if="forloop.index > 1 and forloop.index <= 4" id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434653-5313685d" class="product-header2_list">
-    <div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434654-5313685d" class="product-header2_item"><a href="#" class="product-header2_lightbox-link w-inline-block w-lightbox"><div class="product-header2_image-wrapper"><img li-object:src="media | img_url: 'master'" loading="lazy" alt="" src="{{ media | img_url: 'master' }}" class="product-header2_image-small">
+}</script></a></div><div class="product-header2_list-wrapper hide-mobile-portrait"><div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434653-5313685d" class="product-header2_list">{% if media in product.media %}    <div li-if="forloop.index > 1 and forloop.index <= 4" li-for="media in product.media" id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434654-5313685d" class="product-header2_item">
+    <a href="#" class="product-header2_lightbox-link w-inline-block w-lightbox"><div class="product-header2_image-wrapper"><img li-object:src="media | img_url: 'master'" loading="lazy" alt="" src="{{ media | img_url: 'master' }}" class="product-header2_image-small">
 </div><script type="application/json" class="w-json">{
   "items": [],
   "group": ""
-}</script></a></div>    </div>
-{% endif %}
-                            
-                        </div>
-{% endfor %}<div class="product-header2_gallery-button-wrapper"><a data-w-id="8452d4fa-d91a-467e-ea05-6b0126434665" href="#" class="button-6 is-small is-alternate w-inline-block"><div>Show All Photos</div></a></div></div></div><div class="product-header2_content-bottom"><div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434669-5313685d" class="product-header2_product-title-wrapper"><h1 li-object:text="product.title" class="heading-style-h3-6">
+}</script></a>    </div>
+{% endif %}</div></div><div class="product-header2_gallery-button-wrapper"><a data-w-id="8452d4fa-d91a-467e-ea05-6b0126434665" href="#" class="button-6 is-small is-alternate w-inline-block"><div>Show All Photos</div></a></div></div></div><div class="product-header2_content-bottom"><div id="w-node-_8452d4fa-d91a-467e-ea05-6b0126434669-5313685d" class="product-header2_product-title-wrapper"><h1 li-object:text="product.title" class="heading-style-h3-6">
 {{ product.title }}
 </h1><div class="product-header4_price-wrapper"><div li-object:text="product.price | money" class="heading-style-h5-2">
 {{ product.price | money }}
