@@ -9,6 +9,22 @@
   "group": ""
 }</script></a>
                             
+                            <a href="#" class="product-header4_lightbox-link w-inline-block w-lightbox">{% if media.media_type == 'image' %}    <div li-if="media.media_type == 'image'" class="image-hero-container">
+    <img li-object:src="media | image_url: width: 1000" li-object:alt="media.alt" alt="{{ media.alt }}" src="{{ media | image_url: width: 1000 }}" loading="lazy" class="product-header4_main-image">
+    </div>
+{% endif %}<script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script></a>
+                            
+                            <a href="#" class="product-header4_lightbox-link w-inline-block w-lightbox">{% if media.media_type == 'image' %}    <div li-if="media.media_type == 'image'" class="image-hero-container">
+    <img li-object:src="media | image_url: width: 1000" li-object:alt="media.alt" alt="{{ media.alt }}" src="{{ media | image_url: width: 1000 }}" loading="lazy" class="product-header4_main-image">
+    </div>
+{% endif %}<script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script></a>
+                            
                     {% endfor %}    </div>
 <div class="product-header4_product-details"><div class="margin-bottom margin-small"><div class="breadcrumb_component"><a href="#" class="breadcrumb-link w-inline-block"><div class="text-block-52">Shop All</div></a><div class="breadcrumb-divider w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path></svg></div><a href="#" class="breadcrumb-link w-inline-block"><div>Beverages</div></a><div class="breadcrumb-divider w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 3L11 8L6 13" stroke="CurrentColor" stroke-width="1.5"></path></svg></div><a href="#" class="breadcrumb-link w-inline-block"><div>Refreshing Sparkler</div></a></div></div><div class="margin-bottom margin-small"><h1 li-object:text="product.title" class="heading-style-h3-4">
 {{ product.title }}
