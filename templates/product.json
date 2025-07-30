@@ -33,12 +33,6 @@
       ],
       "settings": {}
     },
-    "recommended_products": {
-      "type": "recommended_products",
-      "settings": {
-        "text_heading": "Recommended"
-      }
-    },
     "benefits_2_YyaHmL": {
       "type": "benefits_2",
       "blocks": {
@@ -104,7 +98,6 @@
   "order": [
     "product_hero_2_bBbKVz",
     "17539049017a0d7d04",
-    "recommended_products",
     "benefits_2_YyaHmL",
     "faq_pxcHHc"
   ]
