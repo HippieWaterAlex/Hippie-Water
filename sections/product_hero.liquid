@@ -12,20 +12,22 @@
 </div>
 
 {% assign current_handle = product.handle %}
-{% for flavor_product in section.settings.collection_flavorcollection.products %}    
-  <div li-for="flavor_product in section.settings.collection_flavorcollection.products">
-                                    
-  {% unless flavor_product.handle == product.handle %}    
-    <div li-unless="flavor_product.handle == product.handle">
-    <div class="flavor-select-loop-container">
-      <a li-object:href="flavor_product.url" href="{{ flavor_product.url }}" class="w-inline-block">
-        <img src="{{ flavor_product.media[0].preview_image | image_url }}" loading="lazy" li-object:src="flavor_product.media[0].preview_image | image_url" alt="" class="image-44">
-</a>
-</div>
-</div>
-{% endunless %}
-                            
-                        </div>
+{% for flavor_product in section.settings.collection_flavorcollection.products %}
+  {% unless flavor_product.handle == current_handle %}
+    <div class="Flavor-select-loop-container">
+      <div class="Flavor_Container Flavor-container-loop-card">
+        <a li-object:href="flavor_product.url" href="{{ flavor_product.url }}">
+          <img class="Image 44"
+               width="auto"
+               height="auto"
+               alt="{{ flavor_product.title }}"
+               src="{{ flavor_product.media[0].preview_image | image_url }}"
+               loading="lazy"
+               li-object:src="flavor_product.media[0].preview_image | image_url">
+        </a>
+      </div>
+    </div>
+  {% endunless %}
 {% endfor %}
 
 </div></div><div class="product-header2_option"><div class="form_field-label-3">Quantity</div><input class="form_input-4 is-quantity-input w-input" maxlength="256" name="Quantity-5" data-name="Quantity 5" placeholder="1" type="number" id="Quantity-5">
